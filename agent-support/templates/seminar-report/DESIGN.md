@@ -1,8 +1,9 @@
 # seminar-report-v1 디자인 규칙
 
 이 템플릿은 `study` 저장소의 `study-report-v1` 을 세미나용으로 파생한 HTML 리포트다.
-`study-report-v1` 자체가 ConnectBrick ai-odyssey 출판 템플릿의 `theme_report.css` 와 `report.js`
-를 이식한 것이므로, 이 템플릿은 그 계보를 두 단계 물려받는다. A4 인쇄 규칙, continuous-mode,
+`study-report-v1` 자체가 발표자의 자체 출판 템플릿 `ai-odyssey-publisher` 의 `theme_report.css`
+와 `report.js` 를 이식한 것이므로, 이 템플릿은 그 계보를 두 단계 물려받는다. CSS 셀렉터가
+정본을 완전히 포함하는 상위집합이라 컴포넌트 이름이 그대로 통한다. A4 인쇄 규칙, continuous-mode,
 섹션 계층, 표·그림 캡션, callout, 목차 드로어, 설정 패널, 다크 테마, 이미지 뷰어를 그대로 쓴다.
 
 - 완성 기준 예시: `html/seminars/computer-use/report.html`
