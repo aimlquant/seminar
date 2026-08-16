@@ -1,0 +1,11 @@
+seminar_id = "computer-use"
+slug = "computer-use"
+title = "Computer Use — AI가 출근했다"
+date = "2026-05-02"
+presenters = ["태영"]
+sections = ["정의", "벤더 지형", "오픈소스", "실사용", "거버넌스"]
+template = "seminar-deck-v1"
+report_template = "seminar-report-v1"
+workflow = "source-report-deck-v1"
+report_source = "report.html"
+artifacts = ["report", "slides"]

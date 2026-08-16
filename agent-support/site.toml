@@ -1,0 +1,17 @@
+schema_version = 1
+
+[site]
+name = "AIML Quant"
+name_ko = "AI·ML·Quant"
+space = "seminar"
+space_ko = "세미나"
+repository = "aimlquant/seminar"
+pages_url = "https://aimlquant.github.io/seminar/"
+landing_url = "https://aimlquant.github.io/"
+study_url = "https://aimlquant.github.io/study/"
+youtube_channel_id = "UCFCw_lSFRhco6h25cXiFecw"
+youtube_handle = "@aimlquant"
+youtube_url = "https://www.youtube.com/@aimlquant"
+kakao_openchat_url = "https://open.kakao.com/o/gtYt0KGi"
+contact_email = "restful3@gmail.com"
+tagline_ko = "교재 없이 한 주제를 끝까지 파는 공개 세미나. 발표자료와 상세 리포트를 함께 공개합니다."
