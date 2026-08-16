@@ -1,0 +1,23 @@
+<svg viewBox="0 0 920 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="배포 74% vs 거버넌스 21% — 53%p 격차">
+<defs>
+<linearGradient id="finalGbFull" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#0F2C59"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+<linearGradient id="finalGbLow" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#D97706"/><stop offset="100%" stop-color="#B45309"/></linearGradient>
+<marker id="finalGbArr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0F2C59"/></marker>
+</defs>
+<rect x="0" y="0" width="920" height="220" fill="#FAFAF9"/>
+<text x="460" y="22" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="12" fill="#6B6B72" letter-spacing="0.06em">2026 엔터프라이즈 — 배포 계획 vs 거버넌스 준비도</text>
+<text x="140" y="68" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="13" fill="#0F0F10">배포 계획</text>
+<rect x="160" y="44" width="670" height="40" rx="6" fill="rgba(0,0,0,0.05)"/>
+<rect x="160" y="44" width="495.8" height="40" rx="6" fill="url(#finalGbFull)"/>
+<text x="640" y="72" text-anchor="end" font-family="JetBrains Mono,monospace" font-weight="900" font-size="20" fill="#FFFFFF">74%</text>
+<line x1="300.7" y1="100" x2="655.8" y2="100" stroke="#0F2C59" stroke-width="2" marker-start="url(#finalGbArr)" marker-end="url(#finalGbArr)"/>
+<rect x="438" y="90" width="80" height="22" rx="4" fill="#FFFFFF" stroke="#0F2C59" stroke-width="1.5"/>
+<text x="478" y="106" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="12" fill="#0F2C59">53%p</text>
+<text x="140" y="142" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="13" fill="#0F0F10">거버넌스</text>
+<rect x="160" y="118" width="670" height="40" rx="6" fill="rgba(0,0,0,0.05)"/>
+<rect x="160" y="118" width="140.7" height="40" rx="6" fill="url(#finalGbLow)"/>
+<text x="285" y="146" text-anchor="end" font-family="JetBrains Mono,monospace" font-weight="900" font-size="20" fill="#FFFFFF">21%</text>
+<rect x="20" y="178" width="880" height="36" rx="6" fill="rgba(15,44,89,0.08)"/>
+<rect x="20" y="178" width="4" height="36" fill="#0F2C59"/>
+<text x="40" y="202" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="12" fill="#091F40">▼ Gartner — 격차 미해소 시 2027년까지 에이전트 프로젝트의 40% 취소 위험</text>
+</svg>

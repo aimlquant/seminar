@@ -20,6 +20,8 @@ duration_minutes = 60
 presenters = ["태영"]
 status = "published"
 youtube_video_id = "W9sqKSJweoU"
+# 발표자 저작. 리포트·슬라이드는 발표자의 CUA 세미나 원자료를
+# seminar-report-v1 · seminar-deck-v1 형식으로 다시 만든 것이다.
 artifacts = [
   { kind = "slides", label = "발표자료", url = "seminars/computer-use/slides.html" },
   { kind = "report", label = "상세 리포트", url = "seminars/computer-use/report.html" },

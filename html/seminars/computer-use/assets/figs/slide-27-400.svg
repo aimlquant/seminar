@@ -1,0 +1,49 @@
+<svg viewBox="0 0 920 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="비용 격차 — 무료부터 월 $400+ 까지">
+<defs>
+<linearGradient id="cstGood" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#059669"/><stop offset="100%" stop-color="#059669"/></linearGradient>
+<linearGradient id="cstMid" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#F59E0B"/><stop offset="100%" stop-color="#D97706"/></linearGradient>
+<linearGradient id="cstBad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#0F2C59"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="920" height="260" fill="#FAFAF9"/>
+<text x="210" y="26" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="11" fill="#0F0F10">Browser Use OSS</text>
+<text x="210" y="38" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#6B6B72">사례 15 — + 스텝당 $0.002</text>
+<rect x="220" y="10" width="3" height="22" rx="2" fill="url(#cstGood)"/>
+<text x="232" y="26" font-family="JetBrains Mono,monospace" font-weight="800" font-size="11" fill="#059669">$0</text>
+<text x="210" y="58" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="11" fill="#0F0F10">OpenClaw + €5 VPS</text>
+<text x="210" y="70" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#6B6B72">사례 12 — Hetzner</text>
+<rect x="220" y="42" width="8.3" height="22" rx="2" fill="url(#cstGood)"/>
+<text x="234" y="58" font-family="JetBrains Mono,monospace" font-weight="800" font-size="11" fill="#059669">$5</text>
+<text x="210" y="90" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="11" fill="#0F0F10">Claude Pro (Cowork)</text>
+<text x="210" y="102" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#6B6B72">사례 2 — 5h/일 쿼터, 30분 만에 소진</text>
+<rect x="220" y="74" width="33" height="22" rx="2" fill="url(#cstMid)"/>
+<text x="258" y="90" font-family="JetBrains Mono,monospace" font-weight="800" font-size="11" fill="#D97706">$20</text>
+<text x="210" y="122" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="11" fill="#0F0F10">OpenClaw API 평상시</text>
+<text x="210" y="134" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#6B6B72">사례 13 — $15~25 변동</text>
+<rect x="220" y="106" width="41.3" height="22" rx="2" fill="url(#cstMid)"/>
+<text x="266" y="122" font-family="JetBrains Mono,monospace" font-weight="800" font-size="11" fill="#D97706">$15~25</text>
+<text x="210" y="154" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="11" fill="#0F0F10">ChatGPT Pro</text>
+<text x="210" y="166" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#6B6B72">사례 7 — 7~24분/태스크, D~F− 등급</text>
+<rect x="220" y="138" width="330" height="22" rx="2" fill="url(#cstBad)"/>
+<text x="560" y="154" font-family="JetBrains Mono,monospace" font-weight="800" font-size="11" fill="#0F2C59">$200</text>
+<text x="210" y="186" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="11" fill="#0F0F10">Google AI Ultra (Mariner)</text>
+<text x="210" y="198" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#6B6B72">사례 11 — Walmart 5분 / Indeed 차단</text>
+<rect x="220" y="170" width="410.8" height="22" rx="2" fill="url(#cstBad)"/>
+<text x="640" y="186" font-family="JetBrains Mono,monospace" font-weight="800" font-size="11" fill="#0F2C59">$249</text>
+<text x="210" y="218" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="11" fill="#0F0F10">OpenClaw API 피크</text>
+<text x="210" y="230" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#0F2C59">사례 13 — TCO 16배 점프</text>
+<rect x="220" y="202" width="660" height="22" rx="2" fill="url(#cstBad)"/>
+<text x="870" y="218" text-anchor="end" font-family="JetBrains Mono,monospace" font-weight="900" font-size="12" fill="#FFFFFF">$400+</text>
+<line x1="220" y1="228" x2="880" y2="228" stroke="#71717A" stroke-width="1"/>
+<line x1="220" y1="224" x2="220" y2="232" stroke="#71717A" stroke-width="1"/>
+<text x="220" y="246" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" fill="#6B6B72">$0</text>
+<line x1="302.5" y1="224" x2="302.5" y2="232" stroke="#71717A" stroke-width="1"/>
+<text x="302.5" y="246" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" fill="#6B6B72">$50</text>
+<line x1="385" y1="224" x2="385" y2="232" stroke="#71717A" stroke-width="1"/>
+<text x="385" y="246" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" fill="#6B6B72">$100</text>
+<line x1="550" y1="224" x2="550" y2="232" stroke="#71717A" stroke-width="1"/>
+<text x="550" y="246" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" fill="#6B6B72">$200</text>
+<line x1="715" y1="224" x2="715" y2="232" stroke="#71717A" stroke-width="1"/>
+<text x="715" y="246" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" fill="#6B6B72">$300</text>
+<line x1="880" y1="224" x2="880" y2="232" stroke="#71717A" stroke-width="1"/>
+<text x="880" y="246" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" fill="#6B6B72">$400/월</text>
+</svg>

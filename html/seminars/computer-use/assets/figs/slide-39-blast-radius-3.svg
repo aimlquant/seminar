@@ -1,0 +1,30 @@
+<svg viewBox="0 0 720 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Blast Radius 3단계">
+<defs>
+<linearGradient id="blRing1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0F2C59"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="720" height="220" fill="#FAFAF9"/>
+<circle cx="220" cy="116" r="98" fill="#FEF2F2" stroke="#0F2C59" stroke-dasharray="4 3"/>
+<text x="220" y="30" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#0F2C59">Tier 3 · Broad Actuation</text>
+<text x="220" y="42" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#091F40">결제 · 전송 · 삭제 — 기본 차단, 2인 승인</text>
+<circle cx="220" cy="116" r="66" fill="#F5F5F4" stroke="#0F2C59" stroke-dasharray="3 2"/>
+<text x="220" y="62" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#0F2C59">Tier 2 · Scoped Actions</text>
+<text x="220" y="74" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#091F40">Gmail · Slack · Sheets — HITL 게이트</text>
+<circle cx="220" cy="116" r="36" fill="url(#blRing1)"/>
+<text x="220" y="112" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="11" fill="#fff">Tier 1</text>
+<text x="220" y="124" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="rgba(255,255,255,0.92)">Read-only</text>
+<g transform="translate(360, 14)">
+<rect x="0" y="0" width="346" height="40" rx="6" fill="#fff" stroke="#0F2C59"/>
+<text x="12" y="16" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#0F2C59">Tier 1 · Read-only</text>
+<text x="12" y="29" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">• 웹 검색·문서 읽기·스크린샷 분석</text>
+<text x="334" y="29" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">기본 허용</text>
+<rect x="0" y="48" width="346" height="56" rx="6" fill="#fff" stroke="#0F2C59"/>
+<text x="12" y="64" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#0F2C59">Tier 2 · Scoped Actions</text>
+<text x="12" y="78" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">• Gmail 초안 · Slack 메시지 · Sheets 쓰기</text>
+<text x="12" y="91" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">• 화이트리스트 + HITL 게이트 + 로그 감사</text>
+<rect x="0" y="112" width="346" height="68" rx="6" fill="#fff" stroke="#0F2C59"/>
+<text x="12" y="128" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#0F2C59">Tier 3 · Broad Actuation</text>
+<text x="12" y="142" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">• 금융 이체 · 계정 생성·삭제 · 관리자 권한</text>
+<text x="12" y="155" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">• 기본 차단 + 2 인 승인 + 물리 Kill Switch</text>
+<text x="12" y="170" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#0F2C59" font-style="italic">→ 권한이 외곽일수록 "인간이 먼저 멈출 수 있어야"</text>
+</g>
+</svg>

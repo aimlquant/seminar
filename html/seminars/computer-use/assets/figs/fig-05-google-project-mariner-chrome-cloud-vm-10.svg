@@ -1,0 +1,78 @@
+<svg viewBox="0 0 720 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Google Project Mariner 아키텍처 — Chrome 확장, 10 병렬 Cloud VM, Workspace 통합, Teach &amp; Repeat 사이클">
+<defs>
+<linearGradient id="gMarBlue" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2563eb"/><stop offset="100%" stop-color="#2563eb"/></linearGradient>
+<linearGradient id="gMarTeal" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0ea5e9"/><stop offset="100%" stop-color="#2563eb"/></linearGradient>
+<marker id="gMarArr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker>
+<marker id="gMarArrTeal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker>
+</defs>
+<text x="360" y="12" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="8.5" fill="#6B6B72" letter-spacing="0.08em">Anthropic · OpenAI 미제공 유일 차별점 — 10 병렬 + Teach &amp; Repeat</text>
+<rect x="10" y="18" width="92" height="130" rx="8" fill="#F5F5F4" stroke="#F5F5F4"/>
+<text x="56" y="34" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="10" fill="#0F0F10">사용자</text>
+<rect x="18" y="44" width="76" height="98" rx="6" fill="#fff" stroke="#2563eb"/>
+<rect x="18" y="44" width="76" height="14" rx="6" fill="#EFF6FF"/>
+<rect x="18" y="52" width="76" height="6" fill="#EFF6FF"/>
+<circle cx="26" cy="51" r="2" fill="#E11D48"/>
+<circle cx="34" cy="51" r="2" fill="#FBBC04"/>
+<circle cx="42" cy="51" r="2" fill="#34A853"/>
+<text x="56" y="75" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="9" fill="#2563eb">Chrome</text>
+<text x="56" y="88" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="7.5" fill="#6B6B72">Mariner 확장</text>
+<line x1="22" y1="96" x2="90" y2="96" stroke="#F5F5F4" stroke-dasharray="2 2"/>
+<text x="56" y="110" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="7.5" fill="#0F0F10">로그인·쿠키</text>
+<text x="56" y="122" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="7.5" fill="#0F0F10">세션 재사용</text>
+<text x="56" y="136" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="7" fill="#2563eb">자연어 지시</text>
+<rect x="120" y="18" width="450" height="130" rx="10" fill="#EFF6FF" stroke="#2563eb" stroke-width="1.3"/>
+<rect x="120" y="18" width="450" height="26" rx="10" fill="url(#gMarBlue)"/>
+<rect x="120" y="34" width="450" height="10" fill="url(#gMarBlue)"/>
+<text x="134" y="36" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="11" fill="#fff">GOOGLE CLOUD · VM × 10 병렬</text>
+<text x="558" y="36" text-anchor="end" font-family="JetBrains Mono,monospace" font-weight="700" font-size="8" fill="rgba(255,255,255,0.95)">gemini-2.5-computer-use-preview-10-2025</text>
+<g>
+<rect x="134" y="54" width="80" height="32" rx="4" fill="#fff" stroke="#2563eb"/><rect x="138" y="58" width="72" height="7" rx="2" fill="#DBEAFE"/><text x="174" y="80" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="7.5" fill="#2563eb">VM-01</text>
+<rect x="220" y="54" width="80" height="32" rx="4" fill="#fff" stroke="#2563eb"/><rect x="224" y="58" width="72" height="7" rx="2" fill="#DBEAFE"/><text x="260" y="80" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="7.5" fill="#2563eb">VM-02</text>
+<rect x="306" y="54" width="80" height="32" rx="4" fill="#fff" stroke="#2563eb"/><rect x="310" y="58" width="72" height="7" rx="2" fill="#DBEAFE"/><text x="346" y="80" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="7.5" fill="#2563eb">VM-03</text>
+<rect x="392" y="54" width="80" height="32" rx="4" fill="#fff" stroke="#2563eb"/><rect x="396" y="58" width="72" height="7" rx="2" fill="#DBEAFE"/><text x="432" y="80" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="7.5" fill="#2563eb">VM-04</text>
+<rect x="478" y="54" width="80" height="32" rx="4" fill="#fff" stroke="#2563eb"/><rect x="482" y="58" width="72" height="7" rx="2" fill="#DBEAFE"/><text x="518" y="80" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="7.5" fill="#2563eb">VM-05</text>
+<rect x="134" y="92" width="80" height="32" rx="4" fill="#fff" stroke="#2563eb"/><rect x="138" y="96" width="72" height="7" rx="2" fill="#DBEAFE"/><text x="174" y="118" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="7.5" fill="#2563eb">VM-06</text>
+<rect x="220" y="92" width="80" height="32" rx="4" fill="#fff" stroke="#2563eb"/><rect x="224" y="96" width="72" height="7" rx="2" fill="#DBEAFE"/><text x="260" y="118" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="7.5" fill="#2563eb">VM-07</text>
+<rect x="306" y="92" width="80" height="32" rx="4" fill="#fff" stroke="#2563eb"/><rect x="310" y="96" width="72" height="7" rx="2" fill="#DBEAFE"/><text x="346" y="118" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="7.5" fill="#2563eb">VM-08</text>
+<rect x="392" y="92" width="80" height="32" rx="4" fill="#fff" stroke="#2563eb"/><rect x="396" y="96" width="72" height="7" rx="2" fill="#DBEAFE"/><text x="432" y="118" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="7.5" fill="#2563eb">VM-09</text>
+<rect x="478" y="92" width="80" height="32" rx="4" fill="#fff" stroke="#2563eb"/><rect x="482" y="96" width="72" height="7" rx="2" fill="#DBEAFE"/><text x="518" y="118" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="7.5" fill="#2563eb">VM-10</text>
+</g>
+<text x="346" y="140" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="8" fill="#2563eb">활성 탭 스크린샷 기반 추론 · DOM 조작 + 탭 제어</text>
+<rect x="588" y="18" width="122" height="130" rx="8" fill="#F5F5F4" stroke="#F5F5F4"/>
+<text x="649" y="34" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="10" fill="#0F0F10">Google Workspace</text>
+<rect x="598" y="44" width="102" height="26" rx="4" fill="#fff" stroke="#E11D48"/>
+<text x="649" y="60" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="8.5" fill="#E11D48">Gmail</text>
+<rect x="598" y="74" width="102" height="26" rx="4" fill="#fff" stroke="#2563EB"/>
+<text x="649" y="90" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="8.5" fill="#2563EB">Docs</text>
+<rect x="598" y="104" width="102" height="26" rx="4" fill="#fff" stroke="#059669"/>
+<text x="649" y="120" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="8.5" fill="#059669">Sheets</text>
+<text x="649" y="142" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="7.5" fill="#6B6B72">네이티브 통합</text>
+<path d="M 102 83 L 119 83" stroke="#2563eb" stroke-width="1.6" fill="none" marker-end="url(#gMarArr)"/>
+<text x="110" y="76" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="6.8" fill="#2563eb">쿠키·세션</text>
+<path d="M 570 83 L 587 83" stroke="#2563eb" stroke-width="1.6" fill="none" marker-end="url(#gMarArr)"/>
+<text x="578" y="76" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="6.8" fill="#2563eb">읽기·쓰기</text>
+<rect x="10" y="162" width="700" height="102" rx="10" fill="#F0F9FF" stroke="#2563eb" stroke-width="1.3"/>
+<rect x="10" y="162" width="700" height="26" rx="10" fill="url(#gMarTeal)"/>
+<rect x="10" y="178" width="700" height="10" fill="url(#gMarTeal)"/>
+<text x="24" y="180" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="11" fill="#fff">TEACH &amp; REPEAT · 영속 메모리 사이클</text>
+<text x="698" y="180" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="8.5" fill="rgba(255,255,255,0.95)" letter-spacing="0.08em">세션 간 기억 지속</text>
+<rect x="20" y="200" width="160" height="54" rx="5" fill="#fff" stroke="#2563eb"/>
+<text x="100" y="216" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="9" fill="#2563eb">① TEACH</text>
+<text x="100" y="230" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="7.8" fill="#0F0F10">사용자가 1개 사이트 시연</text>
+<text x="100" y="244" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="7.3" fill="#6B6B72">경쟁사 신제품 페이지 캡처</text>
+<rect x="196" y="200" width="160" height="54" rx="5" fill="#fff" stroke="#2563eb"/>
+<text x="276" y="216" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="9" fill="#2563eb">② REPEAT × 10</text>
+<text x="276" y="230" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="7.8" fill="#0F0F10">10개 탭 동시 병렬 실행</text>
+<text x="276" y="244" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="7.3" fill="#6B6B72">경쟁사 10곳 변형 지시 확산</text>
+<rect x="372" y="200" width="160" height="54" rx="5" fill="#fff" stroke="#2563eb"/>
+<text x="452" y="216" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="9" fill="#2563eb">③ AGGREGATE</text>
+<text x="452" y="230" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="7.8" fill="#0F0F10">Sheets 자동 집계</text>
+<text x="452" y="244" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="7.3" fill="#6B6B72">가격·사양·URL 행 추가</text>
+<rect x="548" y="200" width="152" height="54" rx="5" fill="#fff" stroke="#2563eb"/>
+<text x="624" y="216" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="9" fill="#2563eb">④ MEMORY · 영속화</text>
+<text x="624" y="230" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="7.8" fill="#0F0F10">&quot;어제 한 그거 오늘도 해 줘&quot;</text>
+<text x="624" y="244" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="7.3" fill="#6B6B72">다음 로그인에서도 재사용</text>
+<path d="M 180 227 L 194 227" stroke="#2563eb" stroke-width="1.5" fill="none" marker-end="url(#gMarArrTeal)"/>
+<path d="M 356 227 L 370 227" stroke="#2563eb" stroke-width="1.5" fill="none" marker-end="url(#gMarArrTeal)"/>
+<path d="M 532 227 L 546 227" stroke="#2563eb" stroke-width="1.5" fill="none" marker-end="url(#gMarArrTeal)"/>
+</svg>

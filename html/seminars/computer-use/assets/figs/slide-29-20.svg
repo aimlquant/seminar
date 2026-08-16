@@ -1,0 +1,48 @@
+<svg viewBox="0 0 720 224" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="섹션 4 클로징 — 태스크 양극화 3 영역 + 5 벤더 실사용 한 줄">
+<defs>
+<linearGradient id="clHigh" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#059669"/><stop offset="100%" stop-color="#059669"/></linearGradient>
+<linearGradient id="clMid" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#F59E0B"/><stop offset="100%" stop-color="#D97706"/></linearGradient>
+<linearGradient id="clLow" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#0F2C59"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+<linearGradient id="clVendor" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0F2C59"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+</defs>
+<text x="26" y="22" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="11" fill="#0F0F10">태스크 양극화 — 성공률 양극단</text>
+<text x="694" y="22" text-anchor="end" font-family="JetBrains Mono,monospace" font-weight="700" font-size="8.5" fill="#0F2C59">5 벤더 실사용 20 건 (2024-10~2026-04)</text>
+<line x1="300" y1="32" x2="300" y2="212" stroke="#F5F5F4" stroke-width="0.8"/>
+<text x="28" y="48" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10.5" fill="#0F0F10">단순 폼 / 정적 웹</text>
+<rect x="28" y="54" width="201" height="14" rx="3" fill="url(#clHigh)"/>
+<text x="235" y="66" font-family="JetBrains Mono,monospace" font-weight="900" font-size="11" fill="#059669">88~95%</text>
+<text x="28" y="86" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#6B6B72">프로덕션 — 정보 추출 · 폼 제출</text>
+<text x="28" y="108" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10.5" fill="#0F0F10">동적 SPA / 멀티앱</text>
+<rect x="28" y="114" width="116" height="14" rx="3" fill="url(#clMid)"/>
+<text x="150" y="126" font-family="JetBrains Mono,monospace" font-weight="900" font-size="11" fill="#D97706">45~60%</text>
+<text x="28" y="146" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#6B6B72">모순 — CSR 투명인간 · 권한 경계</text>
+<text x="28" y="168" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10.5" fill="#0F2C59">CAPTCHA / MFA</text>
+<rect x="28" y="174" width="4" height="14" rx="2" fill="url(#clLow)"/>
+<text x="40" y="186" font-family="JetBrains Mono,monospace" font-weight="900" font-size="11" fill="#0F2C59">0%</text>
+<text x="28" y="206" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#091F40">의도 차단 — HITL 필수</text>
+<rect x="308" y="36" width="384" height="32" rx="4" fill="#FFFFFF" stroke="#F5F5F4"/>
+<rect x="308" y="36" width="3" height="32" fill="url(#clVendor)"/>
+<text x="320" y="52" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="9.5" fill="#0F2C59">Anthropic Claude <tspan font-family="JetBrains Mono,monospace" font-size="8.5" fill="#71717A">[4]</tspan></text>
+<text x="688" y="52" text-anchor="end" font-family="JetBrains Mono,monospace" font-weight="800" font-size="8.5" fill="#0F0F10">$1.13 / 30step</text>
+<text x="320" y="63" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">데스크톱 · MCP 강 / Pro 5h 쿼터 30분 소진</text>
+<rect x="308" y="72" width="384" height="32" rx="4" fill="#FFFFFF" stroke="#F5F5F4"/>
+<rect x="308" y="72" width="3" height="32" fill="url(#clVendor)"/>
+<text x="320" y="88" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="9.5" fill="#0F2C59">OpenAI ChatGPT <tspan font-family="JetBrains Mono,monospace" font-size="8.5" fill="#71717A">[5]</tspan></text>
+<text x="688" y="88" text-anchor="end" font-family="JetBrains Mono,monospace" font-weight="800" font-size="8.5" fill="#0F0F10">11분 / 태스크</text>
+<text x="320" y="99" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">웹 폼 · 가격비교 / 완주는 하지만 불안정·느림</text>
+<rect x="308" y="108" width="384" height="32" rx="4" fill="#FFFFFF" stroke="#F5F5F4"/>
+<rect x="308" y="108" width="3" height="32" fill="url(#clVendor)"/>
+<text x="320" y="124" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="9.5" fill="#0F2C59">Google Mariner <tspan font-family="JetBrains Mono,monospace" font-size="8.5" fill="#71717A">[3]</tspan></text>
+<text x="688" y="124" text-anchor="end" font-family="JetBrains Mono,monospace" font-weight="800" font-size="8.5" fill="#0F0F10">$250 / 월 Ultra</text>
+<text x="320" y="135" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">대량 병렬 / 겨우 굴러가는 수준</text>
+<rect x="308" y="144" width="384" height="32" rx="4" fill="#FFFFFF" stroke="#F5F5F4"/>
+<rect x="308" y="144" width="3" height="32" fill="url(#clVendor)"/>
+<text x="320" y="160" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="9.5" fill="#0F2C59">OpenClaw (OSS) <tspan font-family="JetBrains Mono,monospace" font-size="8.5" fill="#71717A">[5]</tspan></text>
+<text x="688" y="160" text-anchor="end" font-family="JetBrains Mono,monospace" font-weight="800" font-size="8.5" fill="#0F0F10">GPU 비용만</text>
+<text x="320" y="171" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">셀프호스팅 · 24/7 / 될 때만 된다</text>
+<rect x="308" y="180" width="384" height="32" rx="4" fill="#FFFFFF" stroke="#F5F5F4"/>
+<rect x="308" y="180" width="3" height="32" fill="url(#clVendor)"/>
+<text x="320" y="196" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="9.5" fill="#0F2C59">Browser Use <tspan font-family="JetBrains Mono,monospace" font-size="8.5" fill="#71717A">[3]</tspan></text>
+<text x="688" y="196" text-anchor="end" font-family="JetBrains Mono,monospace" font-weight="800" font-size="8.5" fill="#0F0F10">$0.002 / step</text>
+<text x="320" y="207" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">결정론 + LLM 하이브리드 / 셋업 마찰 · 병렬 불안정</text>
+</svg>

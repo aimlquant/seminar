@@ -1,0 +1,75 @@
+<svg viewBox="0 0 720 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="5 벤더 20건 횡단 스냅샷" style="max-height:460px">
+<defs>
+<linearGradient id="vCard" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#0F2C59"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+</defs>
+<rect x="24" y="16" width="128" height="244" rx="6" fill="#fff" stroke="#0F2C59" stroke-width="1.2"/>
+<rect x="24" y="16" width="128" height="3" fill="url(#vCard)"/>
+<text x="34" y="42" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="12" fill="#0F2C59">Anthropic Claude</text>
+<rect x="34" y="50" width="36" height="18" rx="9" fill="#FFE4EC"/>
+<text x="52" y="63" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="800" font-size="11" fill="#0F2C59">4건</text>
+<line x1="34" y1="80" x2="142" y2="80" stroke="#F4F4F5"/>
+<text x="34" y="100" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="12" fill="#059669">강점</text>
+<text x="34" y="120" font-family="Inter,Noto Sans KR,sans-serif" font-size="12" fill="#0F0F10">데스크톱 · MCP</text>
+<text x="34" y="138" font-family="Inter,Noto Sans KR,sans-serif" font-size="12" fill="#0F0F10">멀티앱 통합</text>
+<text x="34" y="164" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="12" fill="#0F2C59">단점</text>
+<text x="34" y="184" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="11" fill="#6B6B72">Pro 5h 쿼터</text>
+<text x="34" y="200" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="11" fill="#6B6B72">30분에 소진</text>
+<rect x="34" y="222" width="108" height="28" rx="3" fill="#F8F8F7"/>
+<text x="88" y="241" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="800" font-size="12" fill="#0F0F10">$1.13 / 30step</text>
+<rect x="160" y="16" width="128" height="244" rx="6" fill="#fff" stroke="#0F2C59" stroke-width="1.2"/>
+<rect x="160" y="16" width="128" height="3" fill="url(#vCard)"/>
+<text x="170" y="42" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="12" fill="#0F2C59">OpenAI ChatGPT</text>
+<rect x="170" y="50" width="36" height="18" rx="9" fill="#FFE4EC"/>
+<text x="188" y="63" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="800" font-size="11" fill="#0F2C59">5건</text>
+<line x1="170" y1="80" x2="278" y2="80" stroke="#F4F4F5"/>
+<text x="170" y="100" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="12" fill="#059669">강점</text>
+<text x="170" y="120" font-family="Inter,Noto Sans KR,sans-serif" font-size="12" fill="#0F0F10">웹 폼 · 가격비교</text>
+<text x="170" y="138" font-family="Inter,Noto Sans KR,sans-serif" font-size="12" fill="#0F0F10">항공권 검색</text>
+<text x="170" y="164" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="12" fill="#0F2C59">단점</text>
+<text x="170" y="184" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="11" fill="#6B6B72">완주는 하지만</text>
+<text x="170" y="200" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="11" fill="#6B6B72">불안정·느림</text>
+<rect x="170" y="222" width="108" height="28" rx="3" fill="#F8F8F7"/>
+<text x="224" y="241" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="800" font-size="12" fill="#0F0F10">11분 / 태스크</text>
+<rect x="296" y="16" width="128" height="244" rx="6" fill="#fff" stroke="#0F2C59" stroke-width="1.2"/>
+<rect x="296" y="16" width="128" height="3" fill="url(#vCard)"/>
+<text x="306" y="42" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="12" fill="#0F2C59">Google Mariner</text>
+<rect x="306" y="50" width="36" height="18" rx="9" fill="#FFE4EC"/>
+<text x="324" y="63" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="800" font-size="11" fill="#0F2C59">3건</text>
+<line x1="306" y1="80" x2="414" y2="80" stroke="#F4F4F5"/>
+<text x="306" y="100" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="12" fill="#059669">강점</text>
+<text x="306" y="120" font-family="Inter,Noto Sans KR,sans-serif" font-size="12" fill="#0F0F10">대량 병렬</text>
+<text x="306" y="138" font-family="Inter,Noto Sans KR,sans-serif" font-size="12" fill="#0F0F10">Walmart 카트</text>
+<text x="306" y="164" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="12" fill="#0F2C59">단점</text>
+<text x="306" y="184" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="11" fill="#6B6B72">겨우 굴러가는</text>
+<text x="306" y="200" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="11" fill="#6B6B72">수준</text>
+<rect x="306" y="222" width="108" height="28" rx="3" fill="#F8F8F7"/>
+<text x="360" y="241" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="800" font-size="12" fill="#0F0F10">$250/월 Ultra</text>
+<rect x="432" y="16" width="128" height="244" rx="6" fill="#fff" stroke="#0F2C59" stroke-width="1.2"/>
+<rect x="432" y="16" width="128" height="3" fill="url(#vCard)"/>
+<text x="442" y="42" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="12" fill="#0F2C59">OpenClaw (OSS)</text>
+<rect x="442" y="50" width="36" height="18" rx="9" fill="#FFE4EC"/>
+<text x="460" y="63" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="800" font-size="11" fill="#0F2C59">5건</text>
+<line x1="442" y1="80" x2="550" y2="80" stroke="#F4F4F5"/>
+<text x="442" y="100" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="12" fill="#059669">강점</text>
+<text x="442" y="120" font-family="Inter,Noto Sans KR,sans-serif" font-size="12" fill="#0F0F10">셀프호스팅</text>
+<text x="442" y="138" font-family="Inter,Noto Sans KR,sans-serif" font-size="12" fill="#0F0F10">메신저 봇 · 24/7</text>
+<text x="442" y="164" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="12" fill="#0F2C59">단점</text>
+<text x="442" y="184" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="11" fill="#6B6B72">될 때만</text>
+<text x="442" y="200" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="11" fill="#6B6B72">된다</text>
+<rect x="442" y="222" width="108" height="28" rx="3" fill="#F8F8F7"/>
+<text x="496" y="241" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="800" font-size="12" fill="#0F0F10">GPU 비용만</text>
+<rect x="568" y="16" width="128" height="244" rx="6" fill="#fff" stroke="#0F2C59" stroke-width="1.2"/>
+<rect x="568" y="16" width="128" height="3" fill="url(#vCard)"/>
+<text x="578" y="42" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="12" fill="#0F2C59">Browser Use</text>
+<rect x="578" y="50" width="36" height="18" rx="9" fill="#FFE4EC"/>
+<text x="596" y="63" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="800" font-size="11" fill="#0F2C59">3건</text>
+<line x1="578" y1="80" x2="686" y2="80" stroke="#F4F4F5"/>
+<text x="578" y="100" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="12" fill="#059669">강점</text>
+<text x="578" y="120" font-family="Inter,Noto Sans KR,sans-serif" font-size="12" fill="#0F0F10">결정론 + LLM</text>
+<text x="578" y="138" font-family="Inter,Noto Sans KR,sans-serif" font-size="12" fill="#0F0F10">하이브리드</text>
+<text x="578" y="164" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="12" fill="#0F2C59">단점</text>
+<text x="578" y="184" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="11" fill="#6B6B72">Windows 셋업 마찰</text>
+<text x="578" y="200" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="11" fill="#6B6B72">10+ 병렬 불안정</text>
+<rect x="578" y="222" width="108" height="28" rx="3" fill="#F8F8F7"/>
+<text x="632" y="241" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="800" font-size="12" fill="#0F0F10">$0.002 / step</text>
+</svg>

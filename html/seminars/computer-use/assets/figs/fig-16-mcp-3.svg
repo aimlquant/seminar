@@ -1,0 +1,73 @@
+<svg viewBox="0 0 720 304" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MCP 권한 스코프 — User / Project / Local 3단계 서랍 비유와 격리 경계">
+<defs>
+<linearGradient id="ssLocal" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0F2C59"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="720" height="304" fill="#FAFAF9"/>
+<text x="360" y="22" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="11" fill="#6B6B72" letter-spacing="0.04em">권한 스코프 3단계 · 도구가 어디까지 보이는가</text>
+<!-- group: left column — 3 drawer cards -->
+<g transform="translate(20, 44)">
+<rect x="0" y="0" width="320" height="68" rx="8" fill="#fff" stroke="#6B6B72" stroke-width="1.4"/>
+<rect x="0" y="0" width="5" height="68" fill="#6B6B72"/>
+<rect x="16" y="18" width="40" height="26" rx="3" fill="none" stroke="#6B6B72" stroke-width="1.5"/>
+<rect x="30" y="13" width="12" height="6" rx="1" fill="#6B6B72"/>
+<circle cx="36" cy="31" r="1.6" fill="#6B6B72"/>
+<text x="68" y="24" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="13" fill="#6B6B72">User</text>
+<text x="106" y="24" font-family="Inter,Noto Sans KR,sans-serif" font-weight="600" font-size="9.5" fill="#6B6B72">· 전역 (개인 서랍)</text>
+<text x="68" y="38" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.8" fill="#6B6B72">개인 계정 공통 — 모든 프로젝트에서 공유</text>
+<text x="16" y="58" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#71717A">예: GitHub · Slack MCP — 어디서나 쓰는 기본 도구셋</text>
+</g>
+<g transform="translate(20, 122)">
+<rect x="0" y="0" width="320" height="68" rx="8" fill="#fff" stroke="#6B6B72" stroke-width="1.4"/>
+<rect x="0" y="0" width="5" height="68" fill="#6B6B72"/>
+<rect x="16" y="18" width="40" height="26" rx="3" fill="none" stroke="#6B6B72" stroke-width="1.5"/>
+<rect x="30" y="13" width="12" height="6" rx="1" fill="#6B6B72"/>
+<circle cx="36" cy="31" r="1.6" fill="#6B6B72"/>
+<text x="68" y="24" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="13" fill="#6B6B72">Project</text>
+<text x="120" y="24" font-family="Inter,Noto Sans KR,sans-serif" font-weight="600" font-size="9.5" fill="#6B6B72">· 팀 공유 (팀 서랍)</text>
+<text x="68" y="38" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.8" fill="#6B6B72">프로젝트별 격리 — 해당 리소스만 접근 가능</text>
+<text x="16" y="58" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#71717A">예: 사내 Confluence · DB MCP — 팀 단위로 묶임</text>
+</g>
+<g transform="translate(20, 200)">
+<rect x="0" y="0" width="320" height="68" rx="8" fill="#fff" stroke="#0F2C59" stroke-width="1.4"/>
+<rect x="0" y="0" width="5" height="68" fill="url(#ssLocal)"/>
+<rect x="16" y="18" width="40" height="26" rx="3" fill="none" stroke="#0F2C59" stroke-width="1.5"/>
+<rect x="30" y="13" width="12" height="6" rx="1" fill="#0F2C59"/>
+<circle cx="36" cy="31" r="1.6" fill="#0F2C59"/>
+<text x="68" y="24" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="13" fill="#0F2C59">Local</text>
+<text x="110" y="24" font-family="Inter,Noto Sans KR,sans-serif" font-weight="600" font-size="9.5" fill="#6B6B72">· 세션 한정 (임시 서랍)</text>
+<text x="68" y="38" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.8" fill="#6B6B72">현재 세션만 유효 — 실험·일회성 도구</text>
+<text x="16" y="58" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#71717A">예: 디버깅용 임시 MCP — 세션 종료시 자동 폐기</text>
+</g>
+<!-- group: right column — nested isolation diagram -->
+<g transform="translate(360, 44)">
+<rect x="0" y="0" width="340" height="224" rx="10" fill="#F4F4F5" stroke="#6B6B72" stroke-width="1.3" stroke-dasharray="4 3"/>
+<text x="12" y="16" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="9.5" fill="#6B6B72">User scope · 내 계정 전체 (모든 프로젝트 공유)</text>
+<rect x="222" y="6" width="48" height="14" rx="3" fill="#6B6B72"/>
+<text x="246" y="16" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="7.5" fill="#fff">GitHub</text>
+<rect x="276" y="6" width="40" height="14" rx="3" fill="#6B6B72"/>
+<text x="296" y="16" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="7.5" fill="#fff">Slack</text>
+<rect x="14" y="32" width="156" height="180" rx="8" fill="#fff" stroke="#6B6B72" stroke-width="1.3" stroke-dasharray="3 2"/>
+<text x="22" y="48" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="9" fill="#6B6B72">Project A · 결제 시스템팀</text>
+<rect x="22" y="56" width="60" height="14" rx="3" fill="#6B6B72"/>
+<text x="52" y="66" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="7.5" fill="#fff">사내 DB</text>
+<rect x="86" y="56" width="68" height="14" rx="3" fill="#6B6B72"/>
+<text x="120" y="66" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="7.5" fill="#fff">Confluence</text>
+<rect x="22" y="98" width="132" height="100" rx="6" fill="url(#ssLocal)"/>
+<text x="32" y="116" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="9" fill="#fff">Local · 이 세션</text>
+<line x1="32" y1="122" x2="144" y2="122" stroke="rgba(255,255,255,0.45)"/>
+<text x="32" y="138" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="rgba(255,255,255,0.94)">디버깅 MCP attach</text>
+<text x="32" y="151" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="rgba(255,255,255,0.94)">테스트 도구 임시 추가</text>
+<text x="32" y="180" font-family="Inter,Noto Sans KR,sans-serif" font-size="7.5" fill="rgba(255,255,255,0.85)">세션 종료시 사라짐 →</text>
+<rect x="180" y="32" width="146" height="180" rx="8" fill="#fff" stroke="#6B6B72" stroke-width="1.3" stroke-dasharray="3 2"/>
+<text x="188" y="48" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="9" fill="#6B6B72">Project B · 마케팅팀</text>
+<rect x="188" y="56" width="62" height="14" rx="3" fill="#6B6B72"/>
+<text x="219" y="66" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="7.5" fill="#fff">Jira MCP</text>
+<rect x="188" y="98" width="130" height="56" rx="6" fill="#FEF2F2" stroke="#0F2C59" stroke-width="1" stroke-dasharray="2 2"/>
+<text x="198" y="115" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="9" fill="#0F2C59">✕ A 의 도구</text>
+<text x="198" y="128" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#0F2C59">사내 DB · Local 모두</text>
+<text x="198" y="141" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#0F2C59">접근 불가</text>
+<text x="188" y="172" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">↑ User 서랍 (GitHub · Slack)</text>
+<text x="188" y="184" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">만 양 프로젝트가 공유</text>
+</g>
+<text x="360" y="290" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.8" fill="#6B6B72">Local ⊂ Project ⊂ User · 작은 서랍의 도구는 다른 서랍에서 보이지 않는다 — 격리 경계가 곧 안전 경계</text>
+</svg>

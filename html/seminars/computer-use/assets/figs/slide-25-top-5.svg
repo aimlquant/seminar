@@ -1,0 +1,48 @@
+<svg viewBox="0 0 720 224" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="태스크 유형별 성공률 + 실패 모드 Top 5">
+<defs>
+<linearGradient id="srHigh" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#059669"/><stop offset="100%" stop-color="#059669"/></linearGradient>
+<linearGradient id="srMid" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#F59E0B"/><stop offset="100%" stop-color="#D97706"/></linearGradient>
+<linearGradient id="srLow" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#0F2C59"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+</defs>
+<text x="190" y="22" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="10" fill="#0F0F10">단순 폼 입력 (10 스텝)</text>
+<rect x="200" y="12" width="299" height="16" rx="3" fill="url(#srHigh)"/>
+<text x="510" y="24" font-family="JetBrains Mono,monospace" font-weight="900" font-size="11" fill="#059669">~88%</text>
+<text x="552" y="24" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#6B6B72">폼 제출 — 개방 폼 OK</text>
+<text x="190" y="48" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="10" fill="#0F0F10">정적 웹 탐색</text>
+<rect x="200" y="38" width="323" height="16" rx="3" fill="url(#srHigh)"/>
+<text x="534" y="50" font-family="JetBrains Mono,monospace" font-weight="900" font-size="11" fill="#059669">~95%</text>
+<text x="572" y="50" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#6B6B72">정보 추출 — 프로덕션</text>
+<text x="190" y="74" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="10" fill="#0F0F10">동적 SPA (React/Vue)</text>
+<rect x="200" y="64" width="153" height="16" rx="3" fill="url(#srLow)"/>
+<text x="364" y="76" font-family="JetBrains Mono,monospace" font-weight="900" font-size="11" fill="#0F2C59">~45%</text>
+<text x="402" y="76" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#6B6B72">"투명인간 CSR" — 사례 8</text>
+<text x="190" y="100" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="10" fill="#0F0F10">멀티앱 워크플로</text>
+<rect x="200" y="90" width="204" height="16" rx="3" fill="url(#srMid)"/>
+<text x="415" y="102" font-family="JetBrains Mono,monospace" font-weight="900" font-size="11" fill="#D97706">~60%</text>
+<text x="453" y="102" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#6B6B72">권한 경계 설계 갈림길</text>
+<text x="190" y="126" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="10" fill="#0F2C59">CAPTCHA / MFA</text>
+<rect x="200" y="116" width="3" height="16" rx="1.5" fill="url(#srLow)"/>
+<text x="214" y="128" font-family="JetBrains Mono,monospace" font-weight="900" font-size="11" fill="#0F2C59">0%</text>
+<text x="252" y="128" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#0F2C59">의도적 차단 — HITL(Human-in-the-Loop) 필수</text>
+<line x1="200" y1="142" x2="540" y2="142" stroke="#71717A" stroke-width="0.8"/>
+<text x="200" y="154" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="8" fill="#6B6B72">0%</text>
+<text x="370" y="154" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="8" fill="#6B6B72">50%</text>
+<text x="540" y="154" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="8" fill="#6B6B72">100%</text>
+<line x1="24" y1="170" x2="696" y2="170" stroke="#F5F5F4"/>
+<text x="26" y="186" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="10" fill="#0F2C59">실패 모드 Top 5 — 책임 주체 명시</text>
+<rect x="24" y="194" width="128" height="24" rx="4" fill="#FFE4EC" stroke="#0F2C59" stroke-width="0.8"/>
+<text x="34" y="209" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="8.5" fill="#0F2C59">① CAPTCHA·봇</text>
+<text x="146" y="209" text-anchor="end" font-family="JetBrains Mono,monospace" font-size="7" fill="#091F40">[웹]</text>
+<rect x="160" y="194" width="128" height="24" rx="4" fill="#FFE4EC" stroke="#0F2C59" stroke-width="0.8"/>
+<text x="170" y="209" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="8.5" fill="#0F2C59">② VM ≠ 실제</text>
+<text x="282" y="209" text-anchor="end" font-family="JetBrains Mono,monospace" font-size="7" fill="#091F40">[제품]</text>
+<rect x="296" y="194" width="128" height="24" rx="4" fill="#FFE4EC" stroke="#0F2C59" stroke-width="0.8"/>
+<text x="306" y="209" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="8.5" fill="#0F2C59">③ 속도 격차</text>
+<text x="418" y="209" text-anchor="end" font-family="JetBrains Mono,monospace" font-size="7" fill="#091F40">[웹]</text>
+<rect x="432" y="194" width="128" height="24" rx="4" fill="#FFE4EC" stroke="#0F2C59" stroke-width="0.8"/>
+<text x="442" y="209" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="8.5" fill="#0F2C59">④ Silent Fail</text>
+<text x="554" y="209" text-anchor="end" font-family="JetBrains Mono,monospace" font-size="7" fill="#091F40">[제품]</text>
+<rect x="568" y="194" width="128" height="24" rx="4" fill="#FFE4EC" stroke="#0F2C59" stroke-width="0.8"/>
+<text x="578" y="209" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="8.5" fill="#0F2C59">⑤ 비용 예측불가</text>
+<text x="690" y="209" text-anchor="end" font-family="JetBrains Mono,monospace" font-size="7" fill="#091F40">[BM]</text>
+</svg>

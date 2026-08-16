@@ -1,0 +1,67 @@
+<svg viewBox="0 0 920 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="빅3 아키텍처 3컬럼 비교">
+<defs>
+<linearGradient id="cmp-A" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0F2C59"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+<linearGradient id="cmp-O" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#059669"/><stop offset="100%" stop-color="#059669"/></linearGradient>
+<linearGradient id="cmp-G" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2563eb"/><stop offset="100%" stop-color="#2563eb"/></linearGradient>
+</defs>
+
+<rect x="6" y="6" width="296" height="208" rx="10" fill="#FAFAF9" stroke="#0F2C59" stroke-width="1.5"/>
+<rect x="6" y="6" width="296" height="26" rx="10" fill="url(#cmp-A)"/>
+<rect x="6" y="20" width="296" height="12" fill="url(#cmp-A)"/>
+<text x="20" y="24" font-family="Inter,sans-serif" font-weight="900" font-size="12" fill="#fff">ANTHROPIC</text>
+<text x="290" y="24" text-anchor="end" font-family="Inter,sans-serif" font-weight="700" font-size="9" fill="rgba(255,255,255,0.92)" letter-spacing="0.06em">API-FIRST · LOCAL</text>
+<rect x="22" y="46" width="264" height="76" rx="6" fill="#fff" stroke="#F5F5F4"/>
+<text x="154" y="64" text-anchor="middle" font-family="Inter,sans-serif" font-size="10.5" font-weight="700" fill="#6B6B72">사용자 PC (내 머신)</text>
+<rect x="38" y="72" width="232" height="44" rx="5" fill="#F5F5F4" stroke="#0F2C59" stroke-dasharray="3 2"/>
+<text x="154" y="88" text-anchor="middle" font-family="Inter,sans-serif" font-weight="700" font-size="11" fill="#0F2C59">MicroVM 샌드박스</text>
+<text x="154" y="104" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#6B6B72">Xvfb · xdotool · 스크린샷</text>
+<rect x="50" y="132" width="208" height="28" rx="5" fill="url(#cmp-A)"/>
+<text x="154" y="150" text-anchor="middle" font-family="Inter,sans-serif" font-weight="800" font-size="10.5" fill="#fff">Anthropic API · Opus 4.7</text>
+<rect x="22" y="170" width="264" height="36" rx="6" fill="#FFF0F4" stroke="#0F2C59" stroke-width="1.4"/>
+<text x="154" y="188" text-anchor="middle" font-family="Inter,sans-serif" font-weight="800" font-size="11" fill="#0F2C59">★ ZDR — 데이터 미저장</text>
+<text x="154" y="200" text-anchor="middle" font-family="Inter,sans-serif" font-size="9.5" fill="#6B6B72">데이터 = 내 머신 유지</text>
+
+<rect x="312" y="6" width="296" height="208" rx="10" fill="#FAFAF9" stroke="#059669" stroke-width="1.5"/>
+<rect x="312" y="6" width="296" height="26" rx="10" fill="url(#cmp-O)"/>
+<rect x="312" y="20" width="296" height="12" fill="url(#cmp-O)"/>
+<text x="326" y="24" font-family="Inter,sans-serif" font-weight="900" font-size="12" fill="#fff">OPENAI</text>
+<text x="596" y="24" text-anchor="end" font-family="Inter,sans-serif" font-weight="700" font-size="9" fill="rgba(255,255,255,0.92)" letter-spacing="0.06em">CLOUD VM + macOS</text>
+<rect x="328" y="46" width="264" height="56" rx="6" fill="#fff" stroke="#F5F5F4"/>
+<text x="460" y="62" text-anchor="middle" font-family="Inter,sans-serif" font-size="10.5" font-weight="700" fill="#6B6B72">사용자 브라우저 / Codex 앱</text>
+<rect x="344" y="70" width="232" height="22" rx="3" fill="#ECFDF5" stroke="#059669" stroke-dasharray="2 2"/>
+<text x="460" y="84" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#059669">Take Control · macOS Codex 2026-04</text>
+<rect x="328" y="110" width="264" height="60" rx="6" fill="#fff" stroke="#059669" stroke-width="1.3" stroke-dasharray="4 2"/>
+<text x="460" y="126" text-anchor="middle" font-family="Inter,sans-serif" font-weight="700" font-size="11" fill="#059669">OpenAI Cloud VM (원격)</text>
+<text x="460" y="140" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#059669">Chromium · GPT-5.4</text>
+<text x="460" y="154" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#059669">OS 로그인 하드 블록</text>
+<text x="460" y="166" text-anchor="middle" font-family="Inter,sans-serif" font-size="9.5" fill="#6B6B72" font-style="italic">macOS 도 추론은 클라우드</text>
+<rect x="328" y="178" width="264" height="28" rx="6" fill="#ECFDF5" stroke="#059669" stroke-width="1.4"/>
+<text x="460" y="196" text-anchor="middle" font-family="Inter,sans-serif" font-weight="800" font-size="10.5" fill="#0F2C59">⚠️ ZDR 등가물 ✗ · CU API 8K</text>
+
+<rect x="618" y="6" width="296" height="208" rx="10" fill="#FAFAF9" stroke="#2563eb" stroke-width="1.5"/>
+<rect x="618" y="6" width="296" height="26" rx="10" fill="url(#cmp-G)"/>
+<rect x="618" y="20" width="296" height="12" fill="url(#cmp-G)"/>
+<text x="632" y="24" font-family="Inter,sans-serif" font-weight="900" font-size="12" fill="#fff">GOOGLE</text>
+<text x="902" y="24" text-anchor="end" font-family="Inter,sans-serif" font-weight="700" font-size="9" fill="rgba(255,255,255,0.92)" letter-spacing="0.06em">CHROME + PARALLEL</text>
+<rect x="634" y="46" width="264" height="56" rx="6" fill="#fff" stroke="#F5F5F4"/>
+<text x="766" y="62" text-anchor="middle" font-family="Inter,sans-serif" font-size="10.5" font-weight="700" fill="#6B6B72">Chrome + Mariner 확장</text>
+<g>
+<rect x="652" y="72" width="22" height="14" rx="2" fill="#2563eb"/>
+<rect x="678" y="72" width="22" height="14" rx="2" fill="#2563eb"/>
+<rect x="704" y="72" width="22" height="14" rx="2" fill="#2563eb"/>
+<rect x="730" y="72" width="22" height="14" rx="2" fill="#2563eb"/>
+<rect x="756" y="72" width="22" height="14" rx="2" fill="#2563eb"/>
+<rect x="782" y="72" width="22" height="14" rx="2" fill="#2563eb"/>
+<rect x="808" y="72" width="22" height="14" rx="2" fill="#2563eb"/>
+<rect x="834" y="72" width="22" height="14" rx="2" fill="#2563eb"/>
+<rect x="860" y="72" width="22" height="14" rx="2" fill="#2563eb"/>
+<rect x="652" y="88" width="22" height="14" rx="2" fill="#2563eb"/>
+</g>
+<rect x="634" y="110" width="264" height="60" rx="6" fill="#fff" stroke="#2563eb" stroke-width="1.3" stroke-dasharray="4 2"/>
+<text x="766" y="126" text-anchor="middle" font-family="Inter,sans-serif" font-weight="700" font-size="11" fill="#2563eb">Google Cloud</text>
+<text x="766" y="140" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#2563eb">gemini-2.5-computer-use</text>
+<text x="766" y="154" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#2563eb">Workspace 네이티브 통합</text>
+<text x="766" y="166" text-anchor="middle" font-family="Inter,sans-serif" font-size="9.5" fill="#6B6B72" font-style="italic">활성 탭만 비전</text>
+<rect x="634" y="178" width="264" height="28" rx="6" fill="#EFF6FF" stroke="#2563eb" stroke-width="1.4"/>
+<text x="766" y="196" text-anchor="middle" font-family="Inter,sans-serif" font-weight="800" font-size="10.5" fill="#2563eb">데이터 = 클라우드 경유 · Chrome 의존</text>
+</svg>

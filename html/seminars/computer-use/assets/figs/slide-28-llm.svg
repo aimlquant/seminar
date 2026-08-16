@@ -1,0 +1,42 @@
+<svg viewBox="0 0 920 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="하이브리드 비교 — 순수 LLM vs 결정론+LLM 자가치유">
+<defs>
+<filter id="hybCard" x="-5%" y="-5%" width="110%" height="115%"><feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#000" flood-opacity="0.08"/></filter>
+<linearGradient id="hybBad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0F2C59"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+<linearGradient id="hybGood" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#059669"/><stop offset="100%" stop-color="#059669"/></linearGradient>
+<marker id="hybArr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B6B72"/></marker>
+</defs>
+<rect x="0" y="0" width="920" height="240" fill="#FAFAF9"/>
+<rect x="40" y="10" width="380" height="220" rx="12" fill="#FFFFFF" stroke="#F5F5F4" stroke-width="1" filter="url(#hybCard)"/>
+<rect x="40" y="10" width="380" height="4" fill="url(#hybBad)"/>
+<text x="60" y="42" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="14" fill="#0F2C59">트랙 ①  순수 LLM 에이전트</text>
+<text x="60" y="62" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="11" fill="#6B6B72">"매 스텝마다 LLM 추론으로 화면 해석"</text>
+<line x1="60" y1="74" x2="400" y2="74" stroke="#F4F4F5" stroke-width="1"/>
+<text x="60" y="98" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="11" fill="#0F0F10">속도</text>
+<text x="220" y="98" font-family="JetBrains Mono,monospace" font-weight="800" font-size="11" fill="#0F2C59">10~30분 / 태스크</text>
+<text x="60" y="120" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="11" fill="#0F0F10">비용</text>
+<text x="220" y="120" font-family="JetBrains Mono,monospace" font-weight="800" font-size="11" fill="#0F2C59">스텝당 $0.10+ (불안정)</text>
+<text x="60" y="142" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="11" fill="#0F0F10">예측성</text>
+<text x="220" y="142" font-family="JetBrains Mono,monospace" font-weight="800" font-size="11" fill="#0F2C59">비결정적 — 같은 입력 다른 결과</text>
+<rect x="60" y="158" width="340" height="58" rx="6" fill="rgba(15,44,89,0.06)"/>
+<text x="74" y="178" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="10.5" fill="#091F40">"순수 LLM 에이전트는 느리고,</text>
+<text x="74" y="194" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="10.5" fill="#091F40">비싸고, 예측이 안 됐다."</text>
+<text x="386" y="208" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#71717A">— gregpr07, browser-use 공동창업자 (사례 20)</text>
+<rect x="500" y="10" width="380" height="220" rx="12" fill="#FFFFFF" stroke="#F5F5F4" stroke-width="1" filter="url(#hybCard)"/>
+<rect x="500" y="10" width="380" height="4" fill="url(#hybGood)"/>
+<text x="520" y="42" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="14" fill="#059669">트랙 ②  결정론 + LLM 자가치유</text>
+<text x="520" y="62" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="11" fill="#6B6B72">"한 번 시연 → 스크립트화 → 실패 시만 LLM"</text>
+<line x1="520" y1="74" x2="860" y2="74" stroke="#F4F4F5" stroke-width="1"/>
+<text x="520" y="98" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="11" fill="#0F0F10">속도</text>
+<text x="680" y="98" font-family="JetBrains Mono,monospace" font-weight="800" font-size="11" fill="#059669">20~40 스텝 &lt; 1분</text>
+<text x="520" y="120" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="11" fill="#0F0F10">비용</text>
+<text x="680" y="120" font-family="JetBrains Mono,monospace" font-weight="800" font-size="11" fill="#059669">스텝당 $0.002</text>
+<text x="520" y="142" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="11" fill="#0F0F10">예측성</text>
+<text x="680" y="142" font-family="JetBrains Mono,monospace" font-weight="800" font-size="11" fill="#059669">결정론 + 의미 기반 회복</text>
+<rect x="520" y="158" width="340" height="58" rx="6" fill="rgba(16,185,129,0.08)"/>
+<text x="534" y="178" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="10.5" fill="#059669">"한 번 시연하면 결정론 스크립트로</text>
+<text x="534" y="194" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="10.5" fill="#059669">변환하되 실패 시 LLM 이 자가치유."</text>
+<text x="846" y="208" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#71717A">— Browser Use workflow-use (RPA 2.0)</text>
+<line x1="426" y1="120" x2="494" y2="120" stroke="#6B6B72" stroke-width="2" fill="none" marker-end="url(#hybArr)"/>
+<text x="460" y="110" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="9" fill="#6B6B72">생태계</text>
+<text x="460" y="136" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="9" fill="#6B6B72">수렴</text>
+</svg>

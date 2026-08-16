@@ -1,0 +1,39 @@
+<svg viewBox="0 0 720 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="세 처방의 공통점 — 사전 완결">
+<defs>
+<linearGradient id="cmCore" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0F2C59"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+<marker id="cmArr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0F2C59"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="240" fill="#FAFAF9"/>
+
+<text x="20" y="20" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="10" fill="#6B6B72">앞에서 본 세 가지 처방</text>
+<rect x="14" y="32" width="340" height="56" rx="6" fill="#fff" stroke="#0F2C59"/>
+<text x="26" y="50" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="11" fill="#0F2C59">Failure Fallback</text>
+<text x="346" y="50" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">§5.4 Silent Failure</text>
+<text x="26" y="66" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">프롬프트 말미 "실패 시 @담당자 DM" 강제</text>
+<text x="26" y="80" font-family="JetBrains Mono,monospace" font-size="8" fill="#0F2C59">→ 프롬프트에 사전 완결</text>
+<rect x="14" y="96" width="340" height="56" rx="6" fill="#fff" stroke="#0F2C59"/>
+<text x="26" y="114" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="11" fill="#0F2C59">Blast Radius</text>
+<text x="346" y="114" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">§5.5 Resilient Restart</text>
+<text x="26" y="130" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">Tier 1/2/3 권한 동심원 + Kill Switch</text>
+<text x="26" y="144" font-family="JetBrains Mono,monospace" font-size="8" fill="#0F2C59">→ 권한 설계에 사전 완결</text>
+<rect x="14" y="160" width="340" height="56" rx="6" fill="#fff" stroke="#0F2C59"/>
+<text x="26" y="178" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="11" fill="#0F2C59">Castle 샌드박스</text>
+<text x="346" y="178" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">§5.5 OpenClaw</text>
+<text x="26" y="194" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">메인 PC ⊥ Castle 머신 물리 분리</text>
+<text x="26" y="208" font-family="JetBrains Mono,monospace" font-size="8" fill="#0F2C59">→ 인프라 분리에 사전 완결</text>
+
+<path d="M 354 60 L 428 60" fill="none" stroke="#0F2C59" stroke-width="1.6" marker-end="url(#cmArr)" opacity="0.7"/>
+<path d="M 354 124 L 428 78" fill="none" stroke="#0F2C59" stroke-width="1.6" marker-end="url(#cmArr)" opacity="0.7"/>
+<path d="M 354 188 L 428 96" fill="none" stroke="#0F2C59" stroke-width="1.6" marker-end="url(#cmArr)" opacity="0.7"/>
+
+<rect x="430" y="32" width="276" height="92" rx="8" fill="url(#cmCore)"/>
+<text x="568" y="58" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="11" fill="rgba(255,255,255,0.85)">공통 분모</text>
+<text x="568" y="86" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="22" fill="#fff">사전 완결</text>
+<text x="568" y="108" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="rgba(255,255,255,0.85)">프롬프트 · 권한 · 인프라에 미리</text>
+
+<rect x="430" y="136" width="276" height="80" rx="6" fill="#fff" stroke="#0F2C59" stroke-dasharray="3 2"/>
+<text x="442" y="154" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#0F2C59">왜? — 런타임 보완 불가</text>
+<text x="442" y="170" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">24/7 비동기 환경, 새벽 3시에 혼자 일함.</text>
+<text x="442" y="184" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">"다음 턴" 안전망이 없다.</text>
+<text x="442" y="207" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" font-style="italic" fill="#0F2C59">→ Handoff Note 모드 (다음 슬라이드)</text>
+</svg>

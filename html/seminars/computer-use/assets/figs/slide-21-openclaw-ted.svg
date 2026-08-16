@@ -1,0 +1,45 @@
+<svg viewBox="0 0 720 245" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Steinberger OpenClaw 18개월 타임라인 및 사회적 파급">
+<defs>
+<linearGradient id="ocTL" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0F2C59"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+<linearGradient id="ocTLDim" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#6b6b72"/><stop offset="100%" stop-color="#6B6B72"/></linearGradient>
+<marker id="ocTLArr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0F2C59"/></marker>
+</defs>
+<line x1="60" y1="55" x2="664" y2="55" stroke="#6B6B72" stroke-width="1.2" stroke-dasharray="4 3" marker-end="url(#ocTLArr)"/>
+<circle cx="80" cy="55" r="6" fill="url(#ocTLDim)"/>
+<text x="80" y="37" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="800" font-size="8.5" fill="#6B6B72">2025 초</text>
+<text x="80" y="75" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="10" fill="#0F0F10">번아웃 탈출</text>
+<text x="80" y="88" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">AI 코딩 시도</text>
+<text x="80" y="101" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="8.5" fill="#0F2C59">→ 44 프로젝트</text>
+<circle cx="270" cy="55" r="6" fill="url(#ocTL)"/>
+<text x="270" y="37" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="800" font-size="8.5" fill="#0F2C59">2025-11</text>
+<text x="270" y="75" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="10" fill="#0F0F10">OpenClaw 공개</text>
+<text x="270" y="88" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">GitHub 첫 release</text>
+<circle cx="460" cy="55" r="8" fill="url(#ocTL)" stroke="#fff" stroke-width="1.5"/>
+<text x="460" y="37" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="800" font-size="8.5" fill="#0F2C59">2026-03</text>
+<text x="460" y="75" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="11" fill="#0F2C59">247k stars</text>
+<text x="460" y="88" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">"스트리퍼 폴" 성장</text>
+<circle cx="640" cy="55" r="9" fill="url(#ocTL)" stroke="#fff" stroke-width="2"/>
+<text x="640" y="37" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="800" font-size="8.5" fill="#0F2C59">2026-04-18</text>
+<text x="640" y="75" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="11" fill="#0F2C59">TED ★</text>
+<text x="640" y="88" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72" font-style="italic">"접근성이 혁신"</text>
+<line x1="40" y1="123" x2="680" y2="123" stroke="#F5F5F4" stroke-width="1"/>
+<text x="360" y="118" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="9" fill="#6B6B72">사회적 파급 — 분쟁 · 중국 · Builder</text>
+<rect x="24" y="135" width="216" height="100" rx="6" fill="#fff" stroke="#0F2C59" stroke-width="1.2"/>
+<text x="36" y="153" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="10" fill="#0F2C59">Anthropic 분쟁 3단계</text>
+<text x="36" y="171" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#0F0F10">① 이름 변경 요구</text>
+<text x="36" y="187" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#0F0F10">② 마스코트 제지</text>
+<text x="36" y="203" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#0F0F10">③ Claude 모델 접근 차단</text>
+<text x="36" y="225" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" font-style="italic" fill="#0F2C59">→ Foundation(비영리) 설립으로 극복</text>
+<rect x="252" y="135" width="216" height="100" rx="6" fill="#fff" stroke="#0F2C59" stroke-width="1.2"/>
+<text x="264" y="153" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="10" fill="#0F2C59">중국 현상</text>
+<text x="264" y="171" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#0F0F10">Tencent 선전 오피스 줄서기</text>
+<text x="264" y="187" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#0F0F10">선전시 세금 감면 보조금</text>
+<text x="264" y="209" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" font-style="italic" fill="#6B6B72">"일일 1건 자동화 미달 시</text>
+<text x="264" y="221" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" font-style="italic" fill="#6B6B72">해고" — 한 기업가</text>
+<rect x="480" y="135" width="216" height="100" rx="6" fill="#fff" stroke="#0F2C59" stroke-width="1.2"/>
+<text x="492" y="153" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="10" fill="#0F2C59">Builder 민주화</text>
+<text x="492" y="171" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#0F0F10">60세 비코더 아버지</text>
+<text x="504" y="183" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">→ 블루투스 맥주 양조기 자동화</text>
+<text x="492" y="201" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#0F0F10">상파울루 10대</text>
+<text x="504" y="213" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">→ 튜터링 사업 론칭</text>
+</svg>

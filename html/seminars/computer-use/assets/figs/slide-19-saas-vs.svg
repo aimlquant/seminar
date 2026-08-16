@@ -1,0 +1,38 @@
+<svg viewBox="0 0 720 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="편의성 통제권 4옵션 스펙트럼">
+<defs>
+<linearGradient id="specA" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#6b6b72"/><stop offset="100%" stop-color="#6b6b72"/></linearGradient>
+<linearGradient id="specB" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#7C2A4A"/><stop offset="100%" stop-color="#5B1A35"/></linearGradient>
+<linearGradient id="specC" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0F2C59"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+<linearGradient id="specD" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#091F40"/><stop offset="100%" stop-color="#3E0014"/></linearGradient>
+</defs>
+<text x="26" y="20" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="11" fill="#6B6B72">← 편의성 · SaaS · 즉시 시작 · 데이터=벤더</text>
+<text x="694" y="20" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="11" fill="#0F2C59">통제권 · Self-Host · 데이터 주권 · DIY →</text>
+<rect x="18" y="42" width="160" height="178" rx="8" fill="url(#specA)"/>
+<text x="98" y="74" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="13" fill="#fff">ChatGPT Agent</text>
+<text x="98" y="90" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" fill="rgba(255,255,255,0.8)">SaaS · OpenAI</text>
+<line x1="34" y1="104" x2="162" y2="104" stroke="rgba(255,255,255,0.28)" stroke-width="0.7"/>
+<text x="98" y="138" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="700" font-size="14" fill="#fff">$20/월</text>
+<text x="98" y="174" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="10" fill="rgba(255,255,255,0.9)">온보딩 마찰 최소</text>
+<text x="98" y="208" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="9.5" fill="rgba(255,255,255,0.95)" font-style="italic">일반 임직원</text>
+<rect x="192" y="42" width="160" height="178" rx="8" fill="url(#specB)"/>
+<text x="272" y="74" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="13" fill="#fff">Claude Cowork</text>
+<text x="272" y="90" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" fill="rgba(255,255,255,0.8)">SaaS · Anthropic + MCP</text>
+<line x1="208" y1="104" x2="336" y2="104" stroke="rgba(255,255,255,0.28)" stroke-width="0.7"/>
+<text x="272" y="138" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="700" font-size="14" fill="#fff">$20–100/월</text>
+<text x="272" y="174" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="10" fill="rgba(255,255,255,0.9)">ZDR · 데이터 주권</text>
+<text x="272" y="208" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="9.5" fill="rgba(255,255,255,0.95)" font-style="italic">기획·분석</text>
+<rect x="366" y="42" width="160" height="178" rx="8" fill="url(#specC)"/>
+<text x="446" y="74" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="13" fill="#fff">OpenClaw</text>
+<text x="446" y="90" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" fill="rgba(255,255,255,0.8)">Self-Host + 상용 LLM</text>
+<line x1="382" y1="104" x2="510" y2="104" stroke="rgba(255,255,255,0.28)" stroke-width="0.7"/>
+<text x="446" y="138" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="700" font-size="14" fill="#fff">GPU 비용만</text>
+<text x="446" y="174" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="10" fill="rgba(255,255,255,0.9)">npm install · Heartbeat</text>
+<text x="446" y="208" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="9.5" fill="rgba(255,255,255,0.95)" font-style="italic">리서치·파일럿</text>
+<rect x="540" y="42" width="160" height="178" rx="8" fill="url(#specD)"/>
+<text x="620" y="74" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="13" fill="#fff">Browser Use</text>
+<text x="620" y="90" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" fill="rgba(255,255,255,0.8)">Full OSS · 비종속</text>
+<line x1="556" y1="104" x2="684" y2="104" stroke="rgba(255,255,255,0.28)" stroke-width="0.7"/>
+<text x="620" y="138" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="700" font-size="14" fill="#fff">무료 · MIT</text>
+<text x="620" y="174" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="10" fill="rgba(255,255,255,0.9)">Direct CDP · Self-Heal</text>
+<text x="620" y="208" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="9.5" fill="rgba(255,255,255,0.95)" font-style="italic">보안 PoC + 자체 LLM</text>
+</svg>

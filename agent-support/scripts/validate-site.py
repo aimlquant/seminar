@@ -9,6 +9,7 @@ import sys
 import tomllib
 from html.parser import HTMLParser
 from pathlib import Path
+from xml.etree import ElementTree
 from urllib.parse import unquote, urlparse
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -118,6 +119,20 @@ def check_no_internal_colors(root: Path, errors: list[str]) -> None:
             errors.append(f"{rel}: internal color token appears {len(hits)} time(s)")
 
 
+def check_svgs_parse(root: Path, errors: list[str]) -> None:
+    """독립 .svg 파일은 XML 로 파싱돼야 한다.
+
+    HTML 안에 인라인으로 있을 때는 통과하던 맨 `&` 가 파일로 분리되는 순간
+    문서를 깨뜨린다. 브라우저는 깨진 이미지 아이콘만 보여 주므로 눈으로 훑으면
+    놓치기 쉽다.
+    """
+    for path in sorted(root.rglob("*.svg")):
+        try:
+            ElementTree.parse(path)
+        except ElementTree.ParseError as exc:
+            errors.append(f"{path.relative_to(root.parent)}: SVG is not well-formed XML ({exc})")
+
+
 def check_no_remote_assets(root: Path, errors: list[str]) -> None:
     for path in sorted(root.rglob("*.css")):
         text = path.read_text(encoding="utf-8", errors="replace")
@@ -211,12 +226,18 @@ def check_seminar(folder: Path, entry: dict, site: Path, errors: list[str]) -> N
                 f"{rel}: report section {section_id!r} is never referenced by a slide"
             )
 
+    # 필수 그림은 슬라이드가 반드시 근거로 참조해야 한다. 같은 파일을 그대로 쓰는 것이
+    # 기본이지만, 발표 크기에 맞춰 재배치한 SVG 도 허용되므로 계약은 src 동일성이 아니라
+    # data-report-refs 참조로 강제한다 (seminar-deck DESIGN.md 참고).
     deck_images = set(deck.images)
     for figure_id, src in report.required_figures:
-        if src and src not in deck_images:
-            errors.append(
-                f"{rel}: required figure {figure_id!r} image {src!r} is missing from the deck"
-            )
+        if figure_id and figure_id in referenced:
+            continue
+        if src and src in deck_images:
+            continue
+        errors.append(
+            f"{rel}: required figure {figure_id!r} is never referenced or reused by a slide"
+        )
 
     check_caption_numbers(report, f"{rel}/report.html", errors)
 
@@ -258,6 +279,7 @@ def main() -> int:
     }
 
     check_no_internal_colors(site, errors)
+    check_svgs_parse(site, errors)
     check_no_remote_assets(site, errors)
     check_internal_links(site / "index.html", site, errors)
 
@@ -275,12 +297,14 @@ def main() -> int:
     for orphan in sorted(on_disk):
         errors.append(f"html/seminars/{orphan} is not a published seminar in seminars.toml")
 
-    video_pattern = re.compile(r"youtube(?:-nocookie)?\.com/(?:watch\?v=|embed/)([\w-]{11})")
+    # 위험은 "우리 채널의 비공개 영상을 임베드하는 것" 이다. 본문이 외부 영상을 각주로
+    # 인용하는 것은 정상이므로 embed 만 레지스트리와 대조한다.
+    embed_pattern = re.compile(r"youtube(?:-nocookie)?\.com/embed/([\w-]{11})")
     for path in sorted(site.rglob("*.html")):
-        for found in video_pattern.findall(path.read_text(encoding="utf-8")):
+        for found in set(embed_pattern.findall(path.read_text(encoding="utf-8"))):
             if found not in known_videos:
                 errors.append(
-                    f"{path.relative_to(site.parent)}: video id {found} is not in seminars.toml"
+                    f"{path.relative_to(site.parent)}: embedded video {found} is not in seminars.toml"
                 )
 
     if errors:

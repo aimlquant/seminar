@@ -1,0 +1,41 @@
+<svg viewBox="0 0 720 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="VPI 방어 4계층 ASR 감쇠">
+<defs>
+<linearGradient id="finalVpiHigh" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0F2C59"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+<linearGradient id="finalVpiMidH" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#E11D48"/><stop offset="100%" stop-color="#9F1239"/></linearGradient>
+<linearGradient id="finalVpiMidL" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#D97706"/><stop offset="100%" stop-color="#B45309"/></linearGradient>
+<linearGradient id="finalVpiLow" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#059669"/><stop offset="100%" stop-color="#059669"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="720" height="240" fill="#FAFAF9"/>
+<text x="360" y="20" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#6B6B72" letter-spacing="0.06em">방어 계층 누적 → ASR 감쇠 곡선</text>
+<line x1="80" y1="50" x2="700" y2="50" stroke="#F5F5F4" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="80" y1="90" x2="700" y2="90" stroke="#F5F5F4" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="80" y1="130" x2="700" y2="130" stroke="#F5F5F4" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="80" y1="170" x2="700" y2="170" stroke="#F5F5F4" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="80" y1="210" x2="700" y2="210" stroke="#6B6B72" stroke-width="1.5"/>
+<text x="74" y="54" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">100%</text>
+<text x="74" y="94" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">75%</text>
+<text x="74" y="134" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">50%</text>
+<text x="74" y="174" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">25%</text>
+<text x="74" y="213" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">0</text>
+<rect x="95" y="75.6" width="100" height="134.4" rx="4" fill="url(#finalVpiHigh)"/>
+<text x="145" y="68" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="900" font-size="20" fill="#0F2C59">84%</text>
+<text x="145" y="226" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#0F0F10">기본</text>
+<text x="145" y="237" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">baseline 상한</text>
+<rect x="265" y="130" width="100" height="80" rx="4" fill="url(#finalVpiMidH)"/>
+<text x="315" y="123" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="900" font-size="20" fill="#E11D48">~50%</text>
+<text x="315" y="226" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#0F0F10">+탐지 필터</text>
+<text x="315" y="237" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">악성 프롬프트 99% 검출 (OpenAI)</text>
+<rect x="435" y="178" width="100" height="32" rx="4" fill="url(#finalVpiMidL)"/>
+<text x="485" y="171" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="900" font-size="20" fill="#D97706">~20%</text>
+<text x="485" y="226" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#0F0F10">+샌드박스</text>
+<text x="485" y="237" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">MicroVM·이그레스 차단</text>
+<rect x="605" y="196" width="100" height="14" rx="4" fill="url(#finalVpiLow)"/>
+<text x="655" y="189" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="900" font-size="20" fill="#059669">8.7%</text>
+<text x="655" y="226" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#0F0F10">+HITL+PII</text>
+<text x="655" y="237" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">다층 방어 후</text>
+<polyline points="145,75.6 315,130 485,178 655,196" fill="none" stroke="#0F0F10" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.55"/>
+<circle cx="145" cy="75.6" r="3.5" fill="#0F2C59"/>
+<circle cx="315" cy="130" r="3.5" fill="#E11D48"/>
+<circle cx="485" cy="178" r="3.5" fill="#D97706"/>
+<circle cx="655" cy="196" r="3.5" fill="#059669"/>
+</svg>

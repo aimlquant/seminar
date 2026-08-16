@@ -1,0 +1,45 @@
+<svg viewBox="0 0 720 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Q&amp;A 와 상세 리포트">
+<defs>
+<linearGradient id="qaRed" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0F2C59"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+<filter id="qaShadow" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.1"/></filter>
+</defs>
+<rect x="0" y="0" width="720" height="280" fill="#FAFAF9"/>
+<rect x="12" y="12" width="336" height="256" rx="10" fill="#fff" stroke="#0F2C59" stroke-width="1.4"/>
+<rect x="12" y="12" width="336" height="4" fill="url(#qaRed)"/>
+<text x="32" y="42" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="14" fill="#0F0F10">상세 리포트 — 사이트 공개</text>
+<g transform="translate(36, 64)">
+<path d="M 0 0 L 64 0 L 84 20 L 84 122 L 0 122 Z" fill="#FAFAF9" stroke="#0F2C59" stroke-width="1.4" filter="url(#qaShadow)"/>
+<path d="M 64 0 L 64 20 L 84 20 Z" fill="#FFE4EC" stroke="#0F2C59" stroke-width="1"/>
+<rect x="10" y="30" width="58" height="5" fill="#0F2C59" opacity="0.5"/>
+<rect x="10" y="40" width="40" height="3" fill="#6B6B72" opacity="0.3"/>
+<line x1="10" y1="56" x2="70" y2="56" stroke="#6B6B72" stroke-width="0.6"/>
+<line x1="10" y1="64" x2="65" y2="64" stroke="#6B6B72" stroke-width="0.6"/>
+<line x1="10" y1="72" x2="68" y2="72" stroke="#6B6B72" stroke-width="0.6"/>
+<line x1="10" y1="80" x2="55" y2="80" stroke="#6B6B72" stroke-width="0.6"/>
+<line x1="10" y1="92" x2="45" y2="92" stroke="#0F2C59" stroke-width="1"/>
+<line x1="10" y1="102" x2="65" y2="102" stroke="#6B6B72" stroke-width="0.6"/>
+<line x1="10" y1="110" x2="55" y2="110" stroke="#6B6B72" stroke-width="0.6"/>
+<rect x="22" y="-10" width="40" height="18" rx="3" fill="url(#qaRed)"/>
+<text x="42" y="3" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="10" fill="#fff">WEB</text>
+</g>
+<text x="140" y="80" font-family="JetBrains Mono,monospace" font-weight="800" font-size="8" fill="#0F2C59">seminar/computer-use/report.html</text>
+<text x="140" y="116" font-family="JetBrains Mono,monospace" font-weight="900" font-size="32" fill="#0F2C59">6<tspan font-size="13" fill="#6B6B72" font-weight="700"> 섹션</tspan><tspan font-size="11" fill="#6B6B72" font-weight="700">  ·  </tspan><tspan font-size="13" fill="#0F0F10" font-weight="900">20</tspan><tspan font-size="11" fill="#6B6B72" font-weight="700"> 그림</tspan><tspan font-size="11" fill="#6B6B72" font-weight="700">  ·  </tspan><tspan font-size="13" fill="#0F0F10" font-weight="900">27</tspan><tspan font-size="11" fill="#6B6B72" font-weight="700"> 표</tspan></text>
+<line x1="140" y1="130" x2="328" y2="130" stroke="#F4F4F5"/>
+<text x="140" y="146" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="9" fill="#6B6B72" letter-spacing="0.5">목차</text>
+<rect x="140" y="154" width="14" height="14" rx="2" fill="#FFE4EC"/>
+<text x="147" y="164.5" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="900" font-size="8" fill="#0F2C59">§</text>
+<text x="160" y="164" font-family="Inter,Noto Sans KR,sans-serif" font-size="9.5" font-weight="700" fill="#0F0F10">1–5 본문 · CU → 자율 → 거버넌스</text>
+<rect x="140" y="174" width="14" height="14" rx="2" fill="#FFE4EC"/>
+<text x="147" y="184.5" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="900" font-size="8" fill="#0F2C59">A</text>
+<text x="160" y="184" font-family="Inter,Noto Sans KR,sans-serif" font-size="9.5" fill="#0F0F10">용어집 · 빠른 참조 · 부록 A–D</text>
+<rect x="140" y="194" width="14" height="14" rx="2" fill="#FFE4EC"/>
+<text x="147" y="204.5" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="900" font-size="8" fill="#0F2C59">N</text>
+<text x="160" y="204" font-family="Inter,Noto Sans KR,sans-serif" font-size="9.5" fill="#0F0F10">출처 <tspan font-weight="900" fill="#0F2C59">100+</tspan></text>
+<rect x="32" y="232" width="296" height="20" rx="3" fill="#FFE4EC"/>
+<text x="180" y="245" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="9.5" fill="#0F2C59">→ aimlquant.github.io/seminar/</text>
+<rect x="372" y="12" width="336" height="256" rx="10" fill="url(#qaRed)" stroke="#091F40" stroke-width="1"/>
+<text x="540" y="130" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="96" fill="#fff" letter-spacing="-0.06em">Q&amp;A</text>
+<line x1="448" y1="170" x2="632" y2="170" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+<text x="540" y="218" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="28" fill="#fff" letter-spacing="0.04em">감사합니다</text>
+<text x="540" y="246" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-weight="500" font-size="13" fill="rgba(255,255,255,0.7)" letter-spacing="0.1em">Thank You</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg viewBox="0 0 720 290" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="METR RCT — AI 사용 시 19% 더 느림, Verification Tax 가시화">
+<defs>
+<linearGradient id="vtCtrl" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#71717A"/><stop offset="100%" stop-color="#52525B"/></linearGradient>
+<linearGradient id="vtAi" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#B8B5B0"/><stop offset="100%" stop-color="#8C8884"/></linearGradient>
+<linearGradient id="vtVerify" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#E36682"/><stop offset="100%" stop-color="#C0244F"/></linearGradient>
+<linearGradient id="vtTax" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#0F2C59"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+<clipPath id="vtCtrlClip"><rect x="140" y="88" width="400" height="40" rx="6"/></clipPath>
+<clipPath id="vtExpClip"><rect x="140" y="158" width="476" height="40" rx="6"/></clipPath>
+</defs>
+<rect x="0" y="0" width="720" height="290" fill="#FAFAF9"/>
+<text x="360" y="26" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="13" fill="#0F0F10">METR RCT 시간 분해 — Verification Tax 의 실증</text>
+<text x="360" y="44" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="10" fill="#6B6B72">숙련 OSS 개발자 16명 · GitHub 이슈 246건 · 무작위 대조 (RCT, 2025)</text>
+<line x1="540" y1="78" x2="540" y2="220" stroke="#6B6B72" stroke-width="1" stroke-dasharray="4,3"/>
+<text x="540" y="72" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="9.5" fill="#6B6B72">100% 기준선</text>
+<text x="130" y="106" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="12" fill="#0F0F10">대조군</text>
+<text x="130" y="120" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="10" fill="#6B6B72">AI 미사용</text>
+<g clip-path="url(#vtCtrlClip)"><rect x="140" y="88" width="400" height="40" fill="url(#vtCtrl)"/></g>
+<text x="155" y="113" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="12" fill="#FFFFFF">직접 작성 (베이스라인)</text>
+<text x="555" y="115" font-family="JetBrains Mono,monospace" font-weight="900" font-size="17" fill="#0F0F10">100%</text>
+<text x="130" y="176" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="12" fill="#0F0F10">실험군</text>
+<text x="130" y="190" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="10" fill="#6B6B72">AI 사용</text>
+<g clip-path="url(#vtExpClip)">
+<rect x="140" y="158" width="100" height="40" fill="url(#vtAi)"/>
+<rect x="240" y="158" width="300" height="40" fill="url(#vtVerify)"/>
+<rect x="540" y="158" width="76" height="40" fill="url(#vtTax)"/>
+</g>
+<line x1="240" y1="158" x2="240" y2="198" stroke="#FAFAF9" stroke-width="1"/>
+<line x1="540" y1="158" x2="540" y2="198" stroke="#FAFAF9" stroke-width="1.5"/>
+<text x="190" y="183" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="10" fill="#FFFFFF">AI 실행</text>
+<text x="390" y="184" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="12" fill="#FFFFFF">인간 검증·수정</text>
+<text x="578" y="184" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="11" fill="#FFFFFF">+19%</text>
+<text x="625" y="185" font-family="JetBrains Mono,monospace" font-weight="900" font-size="17" fill="#0F2C59">119%</text>
+<text x="190" y="220" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="9" fill="#6B6B72">↑ AI 가 빠르게 처리</text>
+<text x="390" y="220" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="9" fill="#0F2C59">↑ 출력을 인간이 검증·수정</text>
+<text x="578" y="220" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="9" fill="#091F40">↑ Verification Tax</text>
+<text x="360" y="258" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="9.5" fill="#6B6B72">METR 측정값 = <tspan font-weight="700" fill="#6B6B72">19% 차이 1개</tspan> · 내부 비율은 도식적 표현</text>
+<text x="360" y="276" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#71717A">Source: METR (2025) — Measuring the Impact of Early-2025 AI on Experienced OSS Developer Productivity</text>
+</svg>

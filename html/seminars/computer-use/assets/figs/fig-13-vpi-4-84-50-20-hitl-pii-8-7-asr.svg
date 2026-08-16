@@ -1,0 +1,42 @@
+<svg viewBox="0 0 720 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="VPI 방어 4계층 ASR 감쇠 막대그래프 — 기본 84% 에서 다층 방어 후 8.7% 로 감소">
+<defs>
+<linearGradient id="vpiHigh" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0F2C59"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+<linearGradient id="vpiMidH" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#E11D48"/><stop offset="100%" stop-color="#9F1239"/></linearGradient>
+<linearGradient id="vpiMidL" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#D97706"/><stop offset="100%" stop-color="#B45309"/></linearGradient>
+<linearGradient id="vpiLow" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#059669"/><stop offset="100%" stop-color="#059669"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="720" height="280" fill="#FAFAF9"/>
+<text x="360" y="22" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#6B6B72" letter-spacing="0.06em">방어 계층 누적 → ASR 감쇠 곡선</text>
+<line x1="80" y1="60" x2="700" y2="60" stroke="#F5F5F4" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="80" y1="105" x2="700" y2="105" stroke="#F5F5F4" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="80" y1="150" x2="700" y2="150" stroke="#F5F5F4" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="80" y1="195" x2="700" y2="195" stroke="#F5F5F4" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="80" y1="240" x2="700" y2="240" stroke="#6B6B72" stroke-width="1.5"/>
+<text x="74" y="64" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">100%</text>
+<text x="74" y="109" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">75%</text>
+<text x="74" y="154" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">50%</text>
+<text x="74" y="199" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">25%</text>
+<text x="74" y="243" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">0</text>
+<text x="38" y="150" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="9" fill="#6B6B72" transform="rotate(-90 38 150)">ASR (Attack Success Rate)</text>
+<rect x="95" y="88.8" width="100" height="151.2" rx="4" fill="url(#vpiHigh)"/>
+<text x="145" y="82" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="900" font-size="20" fill="#0F2C59">84%</text>
+<text x="145" y="256" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#0F0F10">기본</text>
+<text x="145" y="268" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">일반 LLM ASR · baseline 상한</text>
+<rect x="265" y="150" width="100" height="90" rx="4" fill="url(#vpiMidH)"/>
+<text x="315" y="143" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="900" font-size="20" fill="#E11D48">~50%</text>
+<text x="315" y="256" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#0F0F10">+분류기</text>
+<text x="315" y="268" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">OpenAI 99% recall</text>
+<rect x="435" y="204" width="100" height="36" rx="4" fill="url(#vpiMidL)"/>
+<text x="485" y="197" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="900" font-size="20" fill="#D97706">~20%</text>
+<text x="485" y="256" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#0F0F10">+샌드박스</text>
+<text x="485" y="268" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">MicroVM · 이그레스 차단</text>
+<rect x="605" y="224.34" width="100" height="15.66" rx="4" fill="url(#vpiLow)"/>
+<text x="655" y="217" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="900" font-size="20" fill="#059669">8.7%</text>
+<text x="655" y="256" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#0F0F10">+HITL+PII</text>
+<text x="655" y="268" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">다층 방어 후 · SQ Magazine</text>
+<polyline points="145,88.8 315,150 485,204 655,224.34" fill="none" stroke="#0F0F10" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.55"/>
+<circle cx="145" cy="88.8" r="3.5" fill="#0F2C59"/>
+<circle cx="315" cy="150" r="3.5" fill="#E11D48"/>
+<circle cx="485" cy="204" r="3.5" fill="#D97706"/>
+<circle cx="655" cy="224.34" r="3.5" fill="#059669"/>
+</svg>

@@ -1,0 +1,45 @@
+<svg viewBox="0 0 720 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Anthropic Routines 부록 — 트리거 3종과 Morning Email Triage Handoff Note">
+<defs>
+<linearGradient id="apxBar" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#0F2C59"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+</defs>
+<rect width="720" height="280" fill="#FAFAF9"/>
+<rect x="10" y="14" width="226" height="60" rx="6" fill="#fff" stroke="#0F2C59" stroke-width="1.2"/>
+<rect x="10" y="14" width="226" height="3" fill="url(#apxBar)"/>
+<text x="22" y="36" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="11" fill="#0F2C59">SCHEDULE</text>
+<text x="22" y="54" font-family="Inter,Noto Sans KR,sans-serif" font-size="9.5" fill="#0F0F10">매일 07:00 KST 정기 실행</text>
+<text x="22" y="68" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="8.5" fill="#6B6B72">cron 스타일 · 이메일 triage</text>
+<rect x="247" y="14" width="226" height="60" rx="6" fill="#fff" stroke="#0F2C59" stroke-width="1.2"/>
+<rect x="247" y="14" width="226" height="3" fill="url(#apxBar)"/>
+<text x="259" y="36" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="11" fill="#0F2C59">WEBHOOK</text>
+<text x="259" y="54" font-family="Inter,Noto Sans KR,sans-serif" font-size="9.5" fill="#0F0F10">외부 시스템이 URL 호출</text>
+<text x="259" y="68" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="8.5" fill="#6B6B72">Zapier · n8n · 서드파티 연동</text>
+<rect x="484" y="14" width="226" height="60" rx="6" fill="#fff" stroke="#0F2C59" stroke-width="1.2"/>
+<rect x="484" y="14" width="226" height="3" fill="url(#apxBar)"/>
+<text x="496" y="36" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="11" fill="#0F2C59">GITHUB EVENTS</text>
+<text x="496" y="54" font-family="Inter,Noto Sans KR,sans-serif" font-size="9.5" fill="#0F0F10">PR · Issue 생성 시 자동 기동</text>
+<text x="496" y="68" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="8.5" fill="#6B6B72">repo-scoped · 코드리뷰 보조</text>
+<rect x="10" y="84" width="700" height="180" rx="8" fill="#fff" stroke="#0F2C59" stroke-width="1.4"/>
+<rect x="10" y="84" width="700" height="22" rx="8" fill="url(#apxBar)"/>
+<rect x="10" y="98" width="700" height="8" fill="url(#apxBar)"/>
+<text x="22" y="100" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="10" fill="#fff" letter-spacing="0.1em">HANDOFF NOTE</text>
+<text x="700" y="100" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="9.5" fill="rgba(255,255,255,0.92)">예시 · Morning Email Triage · 매일 07:00 KST</text>
+<text x="28" y="138" font-family="JetBrains Mono,monospace" font-weight="800" font-size="13" fill="#0F2C59">①</text>
+<text x="50" y="138" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="10.5" fill="#0F0F10">지난 24h 이메일 스캔</text>
+<text x="50" y="153" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="9" fill="#6B6B72">Gmail API 호출</text>
+<text x="28" y="180" font-family="JetBrains Mono,monospace" font-weight="800" font-size="13" fill="#0F2C59">②</text>
+<text x="50" y="180" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="10.5" fill="#0F0F10">3 분류 — 긴급 / 회신 / 조치불요</text>
+<text x="50" y="195" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="9" fill="#6B6B72">키워드 · 발신자 기반</text>
+<text x="28" y="222" font-family="JetBrains Mono,monospace" font-weight="800" font-size="13" fill="#0F2C59">③</text>
+<text x="50" y="222" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="10.5" fill="#0F0F10">회신 필요에 초안 작성</text>
+<text x="50" y="237" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="9" fill="#6B6B72">200 자 이내</text>
+<text x="372" y="138" font-family="JetBrains Mono,monospace" font-weight="800" font-size="13" fill="#0F2C59">④</text>
+<text x="394" y="138" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="10.5" fill="#0F0F10">Slack #triage 요약 전송</text>
+<text x="394" y="153" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="9" fill="#6B6B72">긴급 상단 고정 · 초안 링크 포함</text>
+<text x="372" y="180" font-family="JetBrains Mono,monospace" font-weight="800" font-size="13" fill="#0F2C59">⑤</text>
+<text x="394" y="180" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="10.5" fill="#0F2C59">실패 시 담당자 DM</text>
+<text x="394" y="195" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="9" fill="#6B6B72">step · error · 로그 50줄 전송</text>
+<text x="372" y="222" font-family="JetBrains Mono,monospace" font-weight="800" font-size="13" fill="#0F2C59">⑥</text>
+<text x="394" y="222" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="10.5" fill="#0F2C59">멱등성 보장</text>
+<text x="394" y="237" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="9" fill="#6B6B72">동일 message_id 는 skip</text>
+<text x="360" y="276" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" font-weight="800" fill="#6B6B72" letter-spacing="0.06em">STATELESS — 매 호출이 새 대화 · 프롬프트가 곧 인계 매뉴얼 | 번들: Cowork $20/월 · Managed Agents $0.08/세션-hr</text>
+</svg>

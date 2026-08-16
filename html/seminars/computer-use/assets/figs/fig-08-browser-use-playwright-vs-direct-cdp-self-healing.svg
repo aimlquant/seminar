@@ -1,0 +1,50 @@
+<svg viewBox="0 0 720 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Browser Use 전통 vs Direct CDP 비교">
+<defs>
+<linearGradient id="buOld" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#6b6b72"/><stop offset="100%" stop-color="#6B6B72"/></linearGradient>
+<linearGradient id="buNew" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0F2C59"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+<marker id="buArr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0F2C59"/></marker>
+<marker id="buArrGray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B6B72"/></marker>
+</defs>
+<rect x="14" y="14" width="340" height="254" rx="10" fill="#F5F5F4" stroke="#6b6b72" stroke-width="1.3"/>
+<text x="28" y="36" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="11" fill="#6B6B72">전통 · Playwright 기반</text>
+<text x="342" y="36" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="8" fill="#6b6b72" letter-spacing="0.08em">~ 2025-08</text>
+<rect x="28" y="50" width="312" height="30" rx="4" fill="url(#buOld)"/>
+<text x="184" y="70" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#fff">LLM Agent</text>
+<path d="M 184 80 L 184 94" stroke="#6B6B72" stroke-width="1.5" fill="none" marker-end="url(#buArrGray)"/>
+<rect x="28" y="96" width="312" height="30" rx="4" fill="url(#buOld)"/>
+<text x="184" y="116" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#fff">Framework (browser-use SDK)</text>
+<path d="M 184 126 L 184 140" stroke="#6B6B72" stroke-width="1.5" fill="none" marker-end="url(#buArrGray)"/>
+<rect x="28" y="142" width="312" height="30" rx="4" fill="url(#buOld)"/>
+<text x="184" y="162" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#fff">Playwright (추상 계층)</text>
+<path d="M 184 172 L 184 186" stroke="#6B6B72" stroke-width="1.5" fill="none" marker-end="url(#buArrGray)"/>
+<rect x="28" y="188" width="312" height="30" rx="4" fill="url(#buOld)"/>
+<text x="184" y="208" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#fff">Node 릴레이</text>
+<path d="M 184 218 L 184 232" stroke="#6B6B72" stroke-width="1.5" fill="none" marker-end="url(#buArrGray)"/>
+<rect x="28" y="234" width="312" height="26" rx="4" fill="#fff" stroke="#6B6B72"/>
+<text x="184" y="252" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="10" fill="#6B6B72">Chrome (CDP)</text>
+<text x="184" y="280" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6b6b72">5 홉 스택 · 프레임워크 제약</text>
+<rect x="374" y="14" width="332" height="254" rx="10" fill="#F5F5F4" stroke="#0F2C59" stroke-width="1.6"/>
+<text x="388" y="36" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="11" fill="#0F2C59">Direct CDP · Self-Healing</text>
+<text x="698" y="36" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="8" fill="#0F2C59" letter-spacing="0.08em">2026-04-18 browser-harness</text>
+<rect x="388" y="50" width="302" height="38" rx="4" fill="url(#buNew)"/>
+<text x="539" y="68" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#fff">LLM Agent</text>
+<text x="539" y="80" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="rgba(255,255,255,0.82)">Skills are written by the harness</text>
+<path d="M 539 88 L 539 102" stroke="#0F2C59" stroke-width="1.6" fill="none" marker-end="url(#buArr)"/>
+<rect x="388" y="104" width="144" height="66" rx="4" fill="#fff" stroke="#0F2C59"/>
+<text x="460" y="122" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="800" font-size="10" fill="#0F2C59">helpers.py</text>
+<text x="460" y="136" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#0F0F10">on-the-fly edit</text>
+<text x="460" y="150" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">Agent 가 직접 파일 수정</text>
+<text x="460" y="163" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="7.5" fill="#0F2C59">Self-Healing</text>
+<rect x="546" y="104" width="144" height="66" rx="4" fill="#fff" stroke="#0F2C59"/>
+<text x="618" y="122" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="800" font-size="10" fill="#0F2C59">domain-skills/</text>
+<text x="618" y="136" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#0F0F10">agent-written</text>
+<text x="618" y="150" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">비자명 해법을 파일로 기록</text>
+<text x="618" y="163" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="7.5" fill="#0F2C59">skills · 재사용</text>
+<path d="M 539 174 L 539 194" stroke="#0F2C59" stroke-width="2" fill="none" marker-end="url(#buArr)"/>
+<text x="539" y="187" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="7.5" fill="#0F2C59" font-weight="700">one websocket</text>
+<rect x="388" y="200" width="302" height="38" rx="4" fill="url(#buNew)"/>
+<text x="539" y="218" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#fff">Chrome (Direct CDP)</text>
+<text x="539" y="230" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="rgba(255,255,255,0.82)">nothing between agent and browser</text>
+<rect x="388" y="244" width="302" height="20" rx="3" fill="#fff" stroke="#0F2C59" stroke-dasharray="3 2"/>
+<text x="539" y="258" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="9" fill="#0F2C59">framework = removed · thinnest harness</text>
+</svg>

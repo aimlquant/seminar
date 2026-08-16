@@ -1,0 +1,52 @@
+<svg viewBox="0 12 720 228" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="OpenClaw 아키텍처">
+<defs>
+<linearGradient id="ocCore" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0F2C59"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+<linearGradient id="ocBot"  x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#6B6B72"/><stop offset="100%" stop-color="#0f2c59"/></linearGradient>
+<marker id="ocArr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0F2C59"/></marker>
+<marker id="ocArrBack" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B6B72"/></marker>
+</defs>
+<text x="26" y="22" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10.5" fill="#0F0F10">자가 호스트 머신 (Mac Mini · Intel NUC · 팀 Ubuntu)</text>
+<text x="708" y="22" text-anchor="end" font-family="JetBrains Mono,monospace" font-weight="700" font-size="9" fill="#0F2C59">npm install · git clone</text>
+<rect x="26" y="50" width="180" height="180" rx="8" fill="#fff" stroke="#6B6B72"/>
+<text x="116" y="70" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#0f2c59">사용자 채널 (봇)</text>
+<rect x="38" y="82" width="156" height="32" rx="4" fill="url(#ocBot)"/>
+<text x="116" y="101" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="10" fill="#fff">Telegram Bot</text>
+<rect x="38" y="120" width="156" height="32" rx="4" fill="url(#ocBot)"/>
+<text x="116" y="139" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="10" fill="#fff">Slack Bot</text>
+<rect x="38" y="158" width="156" height="32" rx="4" fill="url(#ocBot)"/>
+<text x="116" y="177" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="10" fill="#fff">Discord Bot</text>
+<text x="116" y="212" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">자연어 대화 입출력</text>
+<text x="116" y="224" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="7.5" fill="#6B6B72" font-style="italic">channel-agnostic adapter</text>
+<rect x="226" y="50" width="252" height="180" rx="8" fill="url(#ocCore)"/>
+<text x="352" y="72" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="12" fill="#fff">OpenClaw Core</text>
+<text x="352" y="86" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="8" fill="rgba(255,255,255,0.8)">Node.js runtime</text>
+<rect x="240" y="98" width="224" height="46" rx="5" fill="rgba(255,255,255,0.14)" stroke="rgba(255,255,255,0.3)"/>
+<text x="352" y="116" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#fff">Heartbeat · 자가 기동</text>
+<text x="352" y="130" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="rgba(255,255,255,0.85)">주기적 "Surprise me" 기본값</text>
+<text x="352" y="140" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="7.5" fill="rgba(255,255,255,0.75)" font-style="italic">프롬프트 없이도 동작 유지</text>
+<rect x="240" y="150" width="110" height="30" rx="4" fill="rgba(255,255,255,0.1)"/>
+<text x="295" y="169" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="9" fill="#fff">Observe-Think-Act</text>
+<rect x="354" y="150" width="110" height="30" rx="4" fill="rgba(255,255,255,0.1)"/>
+<text x="409" y="169" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="9" fill="#fff">Skills 로더</text>
+<rect x="240" y="186" width="224" height="36" rx="4" fill="rgba(255,255,255,0.1)"/>
+<text x="352" y="202" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="9" fill="#fff">LLM Abstraction</text>
+<text x="352" y="214" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="7.5" fill="rgba(255,255,255,0.82)">Claude · GPT · Gemini · Ollama/Local</text>
+<rect x="498" y="50" width="210" height="180" rx="8" fill="#fff" stroke="#0F2C59" stroke-dasharray="4 3"/>
+<text x="603" y="70" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#0F2C59">workspace/ · 영속 메모리</text>
+<rect x="510" y="80" width="186" height="32" rx="4" fill="#F5F5F4" stroke="#0F2C59"/>
+<text x="522" y="99" font-family="JetBrains Mono,monospace" font-weight="800" font-size="10" fill="#0F2C59">docs/</text>
+<text x="696" y="99" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">지식 베이스</text>
+<rect x="510" y="116" width="186" height="32" rx="4" fill="#F5F5F4" stroke="#0F2C59"/>
+<text x="522" y="135" font-family="JetBrains Mono,monospace" font-weight="800" font-size="10" fill="#0F2C59">memory/</text>
+<text x="696" y="135" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">사실·선호·이력</text>
+<rect x="510" y="152" width="186" height="32" rx="4" fill="#F5F5F4" stroke="#0F2C59"/>
+<text x="522" y="171" font-family="JetBrains Mono,monospace" font-weight="800" font-size="10" fill="#0F2C59">skills/</text>
+<text x="696" y="171" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">사용자 정의 기능</text>
+<rect x="510" y="188" width="186" height="32" rx="4" fill="#F5F5F4" stroke="#0F2C59"/>
+<text x="522" y="207" font-family="JetBrains Mono,monospace" font-weight="800" font-size="10" fill="#0F2C59">state/</text>
+<text x="696" y="207" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">작업 체크포인트</text>
+<path d="M 206 120 L 224 120" stroke="#6B6B72" stroke-width="1.5" fill="none" marker-end="url(#ocArrBack)"/>
+<path d="M 224 170 L 206 170" stroke="#0F2C59" stroke-width="1.5" fill="none" marker-end="url(#ocArr)"/>
+<path d="M 478 140 L 496 140" stroke="#0F2C59" stroke-width="1.5" fill="none" marker-end="url(#ocArr)"/>
+<path d="M 496 190 L 478 190" stroke="#6B6B72" stroke-width="1.5" fill="none" marker-end="url(#ocArrBack)"/>
+</svg>

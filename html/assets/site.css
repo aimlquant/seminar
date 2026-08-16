@@ -191,6 +191,47 @@ h1 {
 
 .empty { margin: 0; color: var(--muted); }
 
+/* 세미나 페이지 */
+.page-meta { margin: 14px 0 0; }
+
+.video-frame {
+  position: relative;
+  width: 100%;
+  max-width: 880px;
+  aspect-ratio: 16 / 9;
+  margin: 26px 0 0;
+  overflow: hidden;
+  background: #000;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+
+.video-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.page-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 22px 0 0;
+  max-width: 880px;
+}
+
+.page-links .card-link { padding: 11px 20px; font-size: 0.9rem; }
+
+.page-summary {
+  margin: 26px 0 0;
+  max-width: 62ch;
+  font-size: 1rem;
+}
+
+.page-summary + .card-scope { margin-top: 14px; }
+
 .links {
   display: flex;
   flex-wrap: wrap;

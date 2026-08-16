@@ -1,0 +1,51 @@
+<svg viewBox="0 0 720 205" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="협업 4 모델 — 공유/감독/위임/승인">
+<defs>
+<linearGradient id="cmGreen" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#059669"/><stop offset="100%" stop-color="#059669"/></linearGradient>
+<linearGradient id="cmAmber" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#F59E0B"/><stop offset="100%" stop-color="#D97706"/></linearGradient>
+<linearGradient id="cmRed" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#E11D48"/><stop offset="100%" stop-color="#9F1239"/></linearGradient>
+</defs>
+<rect x="24" y="21" width="162" height="166" rx="6" fill="#fff" stroke="#059669" stroke-width="1.2"/>
+<rect x="24" y="21" width="162" height="4" fill="url(#cmGreen)"/>
+<text x="36" y="45" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="11" fill="#0F0F10">공유 워크스페이스</text>
+<text x="36" y="61" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="9" fill="#6B6B72">함께 일하는 동기 협업</text>
+<line x1="36" y1="73" x2="174" y2="73" stroke="#F4F4F5"/>
+<text x="36" y="80" font-family="Inter,Noto Sans KR,sans-serif" font-size="7" fill="#71717A">인간 개입</text>
+<rect x="36" y="85" width="60" height="22" rx="4" fill="url(#cmGreen)"/>
+<text x="66" y="100" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#fff">낮음</text>
+<text x="36" y="129" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#0F0F10">비가역 액션에만</text>
+<text x="36" y="141" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#0F0F10">인간 개입</text>
+<text x="36" y="165" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="8.5" fill="#059669">→ 동기 협업 / 즉시 인지</text>
+<rect x="194" y="21" width="162" height="166" rx="6" fill="#fff" stroke="#059669" stroke-width="1.2"/>
+<rect x="194" y="21" width="162" height="4" fill="url(#cmGreen)"/>
+<text x="206" y="45" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="11" fill="#0F0F10">투명 감독</text>
+<text x="206" y="61" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="9" fill="#6B6B72">사고 과정 동행 감독</text>
+<line x1="206" y1="73" x2="344" y2="73" stroke="#F4F4F5"/>
+<text x="206" y="80" font-family="Inter,Noto Sans KR,sans-serif" font-size="7" fill="#71717A">인간 개입</text>
+<rect x="206" y="85" width="60" height="22" rx="4" fill="url(#cmGreen)"/>
+<text x="236" y="100" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#fff">낮음</text>
+<text x="206" y="129" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#0F0F10">사고 과정 실시간</text>
+<text x="206" y="141" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#0F0F10">화면 표시</text>
+<text x="206" y="165" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="8.5" fill="#059669">→ 화면 동행 / 신뢰 구축</text>
+<rect x="364" y="21" width="162" height="166" rx="6" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+<rect x="364" y="21" width="162" height="4" fill="url(#cmAmber)"/>
+<text x="376" y="45" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="11" fill="#D97706">비동기 위임 ★</text>
+<text x="376" y="61" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="9" fill="#6B6B72">사용자 부재 · 비동기 자율</text>
+<line x1="376" y1="73" x2="514" y2="73" stroke="#FBBF24" opacity="0.5"/>
+<text x="376" y="80" font-family="Inter,Noto Sans KR,sans-serif" font-size="7" fill="#71717A">인간 개입</text>
+<rect x="376" y="85" width="60" height="22" rx="4" fill="url(#cmAmber)"/>
+<text x="406" y="100" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#fff">중간</text>
+<text x="376" y="129" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#0F0F10">사용자 부재 시</text>
+<text x="376" y="141" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#0F0F10">백그라운드 실행</text>
+<text x="376" y="165" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="8.5" fill="#D97706" font-weight="700">→ 24/7 · 본 보고서 시나리오</text>
+<rect x="534" y="21" width="162" height="166" rx="6" fill="#fff" stroke="#9F1239" stroke-width="1.2"/>
+<rect x="534" y="21" width="162" height="4" fill="url(#cmRed)"/>
+<text x="546" y="45" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="11" fill="#0F0F10">승인 게이트</text>
+<text x="546" y="61" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="9" fill="#6B6B72">매 행동 명시 게이트</text>
+<line x1="546" y1="73" x2="684" y2="73" stroke="#F4F4F5"/>
+<text x="546" y="80" font-family="Inter,Noto Sans KR,sans-serif" font-size="7" fill="#71717A">인간 개입</text>
+<rect x="546" y="85" width="60" height="22" rx="4" fill="url(#cmRed)"/>
+<text x="576" y="100" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#fff">높음</text>
+<text x="546" y="129" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#0F0F10">중요 액션마다</text>
+<text x="546" y="141" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#0F0F10">명시 승인</text>
+<text x="546" y="165" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="8.5" fill="#9F1239">→ 마찰 큼 / 위험 환경</text>
+</svg>

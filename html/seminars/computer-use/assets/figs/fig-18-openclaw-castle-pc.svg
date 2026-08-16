@@ -1,0 +1,27 @@
+<svg viewBox="0 0 720 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="메인 PC 와 castle 샌드박스 머신을 물리적으로 분리하는 OpenClaw 권장 배치">
+<defs>
+<linearGradient id="sbBad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FEF2F2"/><stop offset="100%" stop-color="#FEF2F2"/></linearGradient>
+<linearGradient id="sbGood" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ECFDF5"/><stop offset="100%" stop-color="#D1FAE5"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="720" height="200" fill="#FAFAF9"/>
+<text x="360" y="22" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#6B6B72" letter-spacing="0.06em">에이전트는 castle 안에서만 · 메인 PC 의 개인 자산은 물리 경계 너머</text>
+<rect x="40" y="44" width="290" height="140" rx="10" fill="url(#sbBad)" stroke="#0F2C59" stroke-width="1.5"/>
+<text x="56" y="66" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="11" fill="#0F2C59">⛔ 메인 PC · 개인 파일 자산</text>
+<line x1="56" y1="76" x2="314" y2="76" stroke="#0F2C59" stroke-width="1" stroke-dasharray="2 2"/>
+<text x="56" y="96" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="9" fill="#091F40">에이전트 접근 차단 대상</text>
+<text x="56" y="116" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">• ~/Documents · ~/Downloads</text>
+<text x="56" y="132" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">• 브라우저 쿠키 · 세션</text>
+<text x="56" y="148" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">• 비밀번호 관리자 (Keychain · 1Password)</text>
+<text x="56" y="164" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">• SSH 키 · API 토큰</text>
+<line x1="360" y1="44" x2="360" y2="184" stroke="#6B6B72" stroke-width="2" stroke-dasharray="6 4"/>
+<rect x="332" y="104" width="56" height="20" rx="4" fill="#FAFAF9" stroke="#6B6B72" stroke-width="1.2"/>
+<text x="360" y="118" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="9" fill="#6B6B72">물리 분리</text>
+<rect x="390" y="44" width="290" height="140" rx="10" fill="url(#sbGood)" stroke="#059669" stroke-width="1.5"/>
+<text x="406" y="66" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="11" fill="#059669">✓ Mac Mini / Intel NUC · "castle"</text>
+<line x1="406" y1="76" x2="664" y2="76" stroke="#059669" stroke-width="1" stroke-dasharray="2 2"/>
+<text x="406" y="96" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="9" fill="#065f46">OpenClaw 전용 실행 환경</text>
+<text x="406" y="116" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">• 개인 파일 없음 (clean state)</text>
+<text x="406" y="132" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">• 교체 가능 · 사고 시 즉시 폐기</text>
+<text x="406" y="148" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">• 전원 물리 차단 가능</text>
+<text x="406" y="164" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">• 별도 네트워크 · 화이트리스트</text>
+</svg>

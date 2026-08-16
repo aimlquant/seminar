@@ -1,0 +1,54 @@
+<svg viewBox="0 0 720 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MCP Host Client Server 분리 구조">
+  <defs>
+    <linearGradient id="mcpHost"   x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0F2C59"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+    <linearGradient id="mcpClient" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#6B6B72"/><stop offset="100%" stop-color="#0f2c59"/></linearGradient>
+    <linearGradient id="mcpServer" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#091F40"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+    <marker id="arrMcp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0F2C59"/></marker>
+  </defs>
+  <g>
+    <rect x="16" y="16" width="210" height="174" rx="10" fill="url(#mcpHost)"/>
+    <text x="30" y="40" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="13" fill="#fff">HOST</text>
+    <text x="215" y="40" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="8.5" fill="rgba(255,255,255,0.82)" letter-spacing="0.08em">LLM APPLICATION</text>
+    <rect x="32" y="56" width="178" height="26" rx="4" fill="rgba(255,255,255,0.14)"/>
+    <text x="121" y="73" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="10" font-weight="700" fill="#fff">Claude · ChatGPT · Gemini</text>
+    <rect x="32" y="90" width="178" height="20" rx="3" fill="rgba(255,255,255,0.08)"/>
+    <text x="121" y="104" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="rgba(255,255,255,0.95)">추론 · 플래닝 · Tool 선택</text>
+    <rect x="32" y="114" width="178" height="20" rx="3" fill="rgba(255,255,255,0.08)"/>
+    <text x="121" y="128" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="rgba(255,255,255,0.95)">사용자 대화 컨텍스트</text>
+    <rect x="32" y="138" width="178" height="20" rx="3" fill="rgba(255,255,255,0.08)"/>
+    <text x="121" y="152" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="rgba(255,255,255,0.95)">스코프 정책 적용</text>
+    <text x="121" y="179" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="rgba(255,255,255,0.75)">자격증명 · 토큰 미보유</text>
+  </g>
+  <g>
+    <rect x="255" y="16" width="210" height="174" rx="10" fill="url(#mcpClient)"/>
+    <text x="269" y="40" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="13" fill="#fff">CLIENT</text>
+    <text x="454" y="40" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="8.5" fill="rgba(255,255,255,0.82)" letter-spacing="0.08em">MCP CONNECTOR</text>
+    <rect x="271" y="56" width="178" height="26" rx="4" fill="rgba(255,255,255,0.12)"/>
+    <text x="360" y="73" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="10" font-weight="700" fill="#fff">JSON-RPC · stdio · SSE</text>
+    <rect x="271" y="90" width="178" height="20" rx="3" fill="rgba(255,255,255,0.06)"/>
+    <text x="360" y="104" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="rgba(255,255,255,0.95)">도구 목록 조회 · 라우팅</text>
+    <rect x="271" y="114" width="178" height="20" rx="3" fill="rgba(255,255,255,0.06)"/>
+    <text x="360" y="128" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="rgba(255,255,255,0.95)">요청 직렬화 · 응답 파싱</text>
+    <rect x="271" y="138" width="178" height="20" rx="3" fill="rgba(255,255,255,0.06)"/>
+    <text x="360" y="152" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="rgba(255,255,255,0.95)">감사 로그 · 호출 추적</text>
+    <text x="360" y="179" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="rgba(255,255,255,0.75)">벤더 독립 공통 규격</text>
+  </g>
+  <g>
+    <rect x="494" y="16" width="210" height="174" rx="10" fill="url(#mcpServer)"/>
+    <text x="508" y="40" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="13" fill="#fff">SERVER</text>
+    <text x="693" y="40" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="8.5" fill="rgba(255,255,255,0.82)" letter-spacing="0.08em">TOOL PROVIDER</text>
+    <rect x="510" y="56" width="178" height="26" rx="4" fill="rgba(255,255,255,0.1)"/>
+    <text x="599" y="73" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="10" font-weight="700" fill="#fff">사내 Jira · DB · Gmail ...</text>
+    <rect x="510" y="90" width="178" height="20" rx="3" fill="rgba(255,255,255,0.06)"/>
+    <text x="599" y="104" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="rgba(255,255,255,0.95)">tool · resource · prompt</text>
+    <rect x="510" y="114" width="178" height="20" rx="3" fill="rgba(255,255,255,0.06)"/>
+    <text x="599" y="128" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="rgba(255,255,255,0.95)">OAuth 토큰 · API 키 보관</text>
+    <rect x="510" y="138" width="178" height="20" rx="3" fill="rgba(255,255,255,0.06)"/>
+    <text x="599" y="152" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="rgba(255,255,255,0.95)">실제 API 호출 실행</text>
+    <text x="599" y="179" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="rgba(255,255,255,0.75)">자격증명은 여기서 머문다</text>
+  </g>
+  <path d="M 226 100 L 254 100" stroke="#0F2C59" stroke-width="2" fill="none" marker-end="url(#arrMcp)"/>
+  <path d="M 254 140 L 226 140" stroke="#0F2C59" stroke-width="1.5" stroke-dasharray="3 3" fill="none" marker-end="url(#arrMcp)"/>
+  <path d="M 465 100 L 493 100" stroke="#0F2C59" stroke-width="2" fill="none" marker-end="url(#arrMcp)"/>
+  <path d="M 493 140 L 465 140" stroke="#0F2C59" stroke-width="1.5" stroke-dasharray="3 3" fill="none" marker-end="url(#arrMcp)"/>
+</svg>

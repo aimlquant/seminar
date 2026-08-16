@@ -1,0 +1,38 @@
+<svg viewBox="0 0 920 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="속도 격차 — 인간 2분 vs 에이전트 5분~24분">
+<defs>
+<linearGradient id="spdGood" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#059669"/><stop offset="100%" stop-color="#059669"/></linearGradient>
+<linearGradient id="spdMid" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#F59E0B"/><stop offset="100%" stop-color="#D97706"/></linearGradient>
+<linearGradient id="spdBad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#0F2C59"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="920" height="220" fill="#FAFAF9"/>
+<text x="210" y="26" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="11" fill="#0F0F10">인간 (참고선)</text>
+<rect x="220" y="10" width="44" height="22" rx="2" fill="url(#spdGood)"/>
+<text x="269" y="26" font-family="JetBrains Mono,monospace" font-weight="800" font-size="11" fill="#059669">2분</text>
+<text x="210" y="54" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="11" fill="#0F0F10">Mariner · Walmart 레시피</text>
+<text x="210" y="66" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#6B6B72">사례 11a — 예외 시나리오</text>
+<rect x="220" y="42" width="110" height="22" rx="2" fill="url(#spdGood)"/>
+<text x="335" y="58" font-family="JetBrains Mono,monospace" font-weight="800" font-size="11" fill="#059669">5분</text>
+<text x="210" y="86" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="11" fill="#0F0F10">ChatGPT Agent · Wong</text>
+<text x="210" y="98" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#6B6B72">사례 8 — 폼 작성</text>
+<rect x="220" y="74" width="242" height="22" rx="2" fill="url(#spdMid)"/>
+<text x="467" y="90" font-family="JetBrains Mono,monospace" font-weight="800" font-size="11" fill="#D97706">11분</text>
+<text x="210" y="118" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="11" fill="#0F0F10">ChatGPT Agent · NN/g</text>
+<text x="210" y="130" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#6B6B72">사례 5 — 검색 6 + 폼 11 + 확인 3</text>
+<rect x="220" y="106" width="440" height="22" rx="2" fill="url(#spdMid)"/>
+<text x="665" y="122" font-family="JetBrains Mono,monospace" font-weight="800" font-size="11" fill="#D97706">20분</text>
+<text x="210" y="150" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="11" fill="#0F0F10">ChatGPT Pro · Todasco</text>
+<text x="210" y="162" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#6B6B72">사례 7 — 6태스크 D~F− 등급</text>
+<rect x="220" y="138" width="528" height="22" rx="2" fill="url(#spdBad)"/>
+<text x="753" y="154" font-family="JetBrains Mono,monospace" font-weight="900" font-size="12" fill="#0F2C59">7~24분</text>
+<line x1="220" y1="180" x2="880" y2="180" stroke="#71717A" stroke-width="1"/>
+<line x1="220" y1="176" x2="220" y2="184" stroke="#71717A" stroke-width="1"/>
+<text x="220" y="198" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" fill="#6B6B72">0</text>
+<line x1="330" y1="176" x2="330" y2="184" stroke="#71717A" stroke-width="1"/>
+<text x="330" y="198" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" fill="#6B6B72">5</text>
+<line x1="440" y1="176" x2="440" y2="184" stroke="#71717A" stroke-width="1"/>
+<text x="440" y="198" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" fill="#6B6B72">10</text>
+<line x1="660" y1="176" x2="660" y2="184" stroke="#71717A" stroke-width="1"/>
+<text x="660" y="198" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" fill="#6B6B72">20</text>
+<line x1="880" y1="176" x2="880" y2="184" stroke="#71717A" stroke-width="1"/>
+<text x="880" y="198" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" fill="#6B6B72">30분</text>
+</svg>

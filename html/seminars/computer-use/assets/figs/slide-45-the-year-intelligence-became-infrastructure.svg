@@ -1,0 +1,66 @@
+<svg viewBox="0 0 720 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="3 결론 카드: 행동 우선·태스크 우선·거버넌스 우선">
+<defs>
+<linearGradient id="taBar" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#0F2C59"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="720" height="280" fill="#FAFAF9"/>
+<rect x="12" y="12" width="226" height="256" rx="10" fill="#fff" stroke="#0F2C59" stroke-width="1.6"/>
+<rect x="12" y="12" width="226" height="5" fill="url(#taBar)"/>
+<circle cx="42" cy="44" r="15" fill="url(#taBar)"/>
+<text x="42" y="50" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="16" fill="#fff">①</text>
+<text x="68" y="42" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="15" fill="#0F2C59">행동 우선</text>
+<text x="68" y="58" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="9.5" fill="#6B6B72" letter-spacing="0.6">Action-first</text>
+<line x1="24" y1="74" x2="226" y2="74" stroke="#F4F4F5" stroke-width="1.2"/>
+<rect x="32" y="92" width="64" height="36" rx="5" fill="#FFE4EC"/>
+<text x="64" y="108" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="11" fill="#0F2C59">텍스트</text>
+<text x="64" y="121" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="8.5" fill="#6B6B72">Read</text>
+<text x="110" y="116" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="20" fill="#0F2C59">→</text>
+<rect x="124" y="92" width="64" height="36" rx="5" fill="url(#taBar)"/>
+<text x="156" y="108" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="11" fill="#fff">행동</text>
+<text x="156" y="121" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="8.5" fill="rgba(255,255,255,0.85)">Click · Type</text>
+<text x="24" y="160" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="13.5" fill="#0F0F10">챗봇이 멈추는 곳에서</text>
+<text x="24" y="180" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="13.5" fill="#0F0F10">Agent 가 시작한다</text>
+<text x="24" y="210" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="10" fill="#6B6B72">— 텍스트 답변 → 작업 완료</text>
+<rect x="20" y="234" width="64" height="22" rx="3" fill="#FFE4EC"/>
+<text x="52" y="249" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="800" font-size="9.5" fill="#0F2C59">§01 · §04</text>
+<rect x="247" y="12" width="226" height="256" rx="10" fill="#fff" stroke="#0F2C59" stroke-width="1.6"/>
+<rect x="247" y="12" width="226" height="5" fill="url(#taBar)"/>
+<circle cx="277" cy="44" r="15" fill="url(#taBar)"/>
+<text x="277" y="50" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="16" fill="#fff">②</text>
+<text x="303" y="42" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="15" fill="#0F2C59">태스크 우선</text>
+<text x="303" y="58" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="9.5" fill="#6B6B72" letter-spacing="0.6">Task-first</text>
+<line x1="259" y1="74" x2="461" y2="74" stroke="#F4F4F5" stroke-width="1.2"/>
+<rect x="265" y="92" width="92" height="36" rx="5" fill="#F4F4F5" stroke="#E5E5E7" stroke-width="0.8"/>
+<text x="311" y="106" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#6B6B72">어떤 AI 가 최고?</text>
+<text x="311" y="120" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="8.5" fill="#9999A0">잘못된 질문</text>
+<text x="365" y="116" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="16" fill="#0F2C59">→</text>
+<rect x="376" y="92" width="84" height="36" rx="5" fill="url(#taBar)"/>
+<text x="418" y="106" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="10" fill="#fff">어떤 태스크?</text>
+<text x="418" y="120" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="8.5" fill="rgba(255,255,255,0.9)">올바른 질문</text>
+<text x="259" y="160" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="13.5" fill="#0F0F10">단일 벤더 락인</text>
+<text x="259" y="180" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="13.5" fill="#0F0F10">= 안티패턴</text>
+<text x="259" y="210" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="10" fill="#6B6B72">— 부서·태스크별 강점 매칭</text>
+<rect x="255" y="234" width="92" height="22" rx="3" fill="#FFE4EC"/>
+<text x="301" y="249" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="800" font-size="9.5" fill="#0F2C59">§02 · §03 · §04</text>
+<rect x="482" y="12" width="226" height="256" rx="10" fill="#fff" stroke="#0F2C59" stroke-width="1.6"/>
+<rect x="482" y="12" width="226" height="5" fill="url(#taBar)"/>
+<circle cx="512" cy="44" r="15" fill="url(#taBar)"/>
+<text x="512" y="50" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="16" fill="#fff">③</text>
+<text x="538" y="42" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="15" fill="#0F2C59">거버넌스 우선</text>
+<text x="538" y="58" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="9.5" fill="#6B6B72" letter-spacing="0.6">Governance-first</text>
+<line x1="494" y1="74" x2="696" y2="74" stroke="#F4F4F5" stroke-width="1.2"/>
+<text x="494" y="98" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="9.5" fill="#6B6B72">능력</text>
+<rect x="538" y="91" width="132" height="9" rx="2" fill="#FFE4EC"/>
+<rect x="538" y="91" width="98" height="9" rx="2" fill="url(#taBar)"/>
+<text x="694" y="99" text-anchor="end" font-family="JetBrains Mono,monospace" font-weight="900" font-size="11" fill="#0F2C59">74%</text>
+<text x="494" y="121" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="9.5" fill="#6B6B72">거버넌스</text>
+<rect x="538" y="114" width="132" height="9" rx="2" fill="#FFE4EC"/>
+<rect x="538" y="114" width="28" height="9" rx="2" fill="#9999A0"/>
+<text x="694" y="122" text-anchor="end" font-family="JetBrains Mono,monospace" font-weight="900" font-size="11" fill="#0F0F10">21%</text>
+<rect x="566" y="134" width="106" height="20" rx="3" fill="#0F2C59"/>
+<text x="619" y="148" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="900" font-size="10" fill="#fff">▲ 53%p 격차</text>
+<text x="494" y="178" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="13.5" fill="#0F0F10">능력만큼</text>
+<text x="494" y="198" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="13.5" fill="#0F0F10">가드레일이 시급</text>
+<text x="494" y="222" font-family="Inter,Noto Sans KR,sans-serif" font-style="italic" font-size="10" fill="#6B6B72">— Deloitte State of AI 2026</text>
+<rect x="490" y="234" width="38" height="22" rx="3" fill="#FFE4EC"/>
+<text x="509" y="249" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="800" font-size="9.5" fill="#0F2C59">§05</text>
+</svg>

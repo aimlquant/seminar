@@ -1,0 +1,46 @@
+<svg viewBox="0 0 720 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="EU AI Act · 한국 AI 기본법 · PIPA 2026 시행 타임라인">
+<defs>
+<linearGradient id="regEu"   x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2563eb"/><stop offset="100%" stop-color="#1e3a8a"/></linearGradient>
+<linearGradient id="regKr"   x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0F2C59"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+<linearGradient id="regPipa" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#059669"/><stop offset="100%" stop-color="#064e3b"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="720" height="260" fill="#FAFAF9"/>
+<text x="360" y="24" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="11" fill="#6B6B72">Jan 2026  —————  Aug 2026  —————  Sep 2026  —————  Dec 2026</text>
+<line x1="40" y1="130" x2="700" y2="130" stroke="#6B6B72" stroke-width="2"/>
+<g font-family="Inter,Noto Sans KR,sans-serif">
+<line x1="80" y1="120" x2="80" y2="140" stroke="#6B6B72" stroke-width="1.5"/>
+<text x="80" y="156" text-anchor="middle" font-size="8.5" fill="#6B6B72">2026-01</text>
+<line x1="260" y1="120" x2="260" y2="140" stroke="#6B6B72" stroke-width="1.5"/>
+<text x="260" y="156" text-anchor="middle" font-size="8.5" fill="#6B6B72">2026-04</text>
+<line x1="440" y1="120" x2="440" y2="140" stroke="#6B6B72" stroke-width="1.5"/>
+<text x="440" y="156" text-anchor="middle" font-size="8.5" fill="#6B6B72">2026-08</text>
+<line x1="540" y1="120" x2="540" y2="140" stroke="#6B6B72" stroke-width="1.5"/>
+<text x="540" y="156" text-anchor="middle" font-size="8.5" fill="#6B6B72">2026-09</text>
+<line x1="700" y1="120" x2="700" y2="140" stroke="#6B6B72" stroke-width="1.5"/>
+<text x="700" y="156" text-anchor="middle" font-size="8.5" fill="#6B6B72">2026-12</text>
+</g>
+<circle cx="260" cy="130" r="6" fill="#091F40"/>
+<text x="260" y="112" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" font-weight="800" fill="#0F0F10">오늘</text>
+<g>
+<rect x="40" y="46" width="80" height="44" rx="5" fill="url(#regKr)"/>
+<text x="80" y="66" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="10" fill="#fff">AI 기본법 (KR)</text>
+<text x="80" y="80" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="rgba(255,255,255,0.92)">2026-01-22 시행</text>
+<path d="M 80 94 L 80 124" stroke="#0F2C59" stroke-width="1.4" stroke-dasharray="3 3"/>
+</g>
+<g>
+<rect x="400" y="180" width="100" height="52" rx="5" fill="url(#regEu)"/>
+<text x="450" y="200" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="10" fill="#fff">EU AI Act</text>
+<text x="450" y="214" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="rgba(255,255,255,0.95)">고위험 AI 조항</text>
+<text x="450" y="226" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="rgba(255,255,255,0.95)">2026-08-02 시행</text>
+<path d="M 450 176 L 450 136" stroke="#2563eb" stroke-width="1.4" stroke-dasharray="3 3"/>
+</g>
+<g>
+<rect x="500" y="44" width="108" height="52" rx="5" fill="url(#regPipa)"/>
+<text x="554" y="64" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="10" fill="#fff">PIPA 개정 (KR)</text>
+<text x="554" y="78" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="rgba(255,255,255,0.95)">스크린 캡처 데이터 최소화</text>
+<text x="554" y="90" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="rgba(255,255,255,0.95)">2026-09-11 시행</text>
+<path d="M 554 100 L 554 124" stroke="#059669" stroke-width="1.4" stroke-dasharray="3 3"/>
+</g>
+<path d="M 260 168 Q 350 172 440 168" stroke="#0F2C59" stroke-width="1.2" stroke-dasharray="4 3" fill="none"/>
+<text x="350" y="190" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" font-weight="700" fill="#0F2C59">PIPA D-138일 · EU D-98일</text>
+</svg>

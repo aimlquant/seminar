@@ -1,0 +1,33 @@
+<svg viewBox="0 0 720 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Blast Radius 3단계">
+<defs>
+<linearGradient id="blRing1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0F2C59"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="720" height="280" fill="#FAFAF9"/>
+<circle cx="280" cy="140" r="120" fill="#FEF2F2" stroke="#0F2C59" stroke-dasharray="4 3"/>
+<text x="280" y="34" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#0F2C59">Tier 3 · Broad Actuation</text>
+<text x="280" y="46" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#091F40">결제 · 전송 · 삭제 — 기본 차단, 2인 승인</text>
+<circle cx="280" cy="140" r="80" fill="#F5F5F4" stroke="#0F2C59" stroke-dasharray="3 2"/>
+<text x="280" y="74" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#0F2C59">Tier 2 · Scoped Actions</text>
+<text x="280" y="86" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#091F40">Gmail · Slack · Sheets — HITL 게이트</text>
+<circle cx="280" cy="140" r="42" fill="url(#blRing1)"/>
+<text x="280" y="136" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="12" fill="#fff">Tier 1</text>
+<text x="280" y="150" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="rgba(255,255,255,0.92)">Read-only</text>
+<text x="280" y="162" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="rgba(255,255,255,0.82)">검색·요약·분류</text>
+<g transform="translate(440, 60)">
+<rect x="0" y="0" width="260" height="46" rx="6" fill="#fff" stroke="#0F2C59"/>
+<text x="12" y="18" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#0F2C59">Tier 1 · Read-only</text>
+<text x="12" y="32" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">• 웹 검색, 문서 읽기, 스크린샷 분석</text>
+<text x="12" y="43" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">• 실패해도 외부 세계에 영향 없음 — 기본 허용</text>
+<rect x="0" y="56" width="260" height="58" rx="6" fill="#fff" stroke="#0F2C59"/>
+<text x="12" y="74" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#0F2C59">Tier 2 · Scoped Actions</text>
+<text x="12" y="88" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">• Gmail 초안, Slack 메시지, Sheets 쓰기</text>
+<text x="12" y="99" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">• 허용 채널 화이트리스트 + HITL 게이트</text>
+<text x="12" y="110" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">• 로그 감사 + 속도 제한</text>
+<rect x="0" y="124" width="260" height="72" rx="6" fill="#fff" stroke="#0F2C59"/>
+<text x="12" y="142" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#0F2C59">Tier 3 · Broad Actuation</text>
+<text x="12" y="156" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">• 금융 이체, 계정 생성·삭제, 관리자 권한</text>
+<text x="12" y="167" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">• 기본값 차단, 2인 승인 + 물리 Kill Switch</text>
+<text x="12" y="178" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">• 사고 시 네트워크 케이블 분리 절차</text>
+<text x="12" y="189" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#0F2C59">→ 권한이 외곽일수록 "인간이 먼저 멈출 수 있어야" 한다</text>
+</g>
+</svg>

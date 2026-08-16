@@ -1,0 +1,41 @@
+<svg viewBox="0 0 720 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="APA 하이브리드 실행 플로우 — Agent 예외 감지 → CUA 판단 → RPA 실행 → ERP 반영, 이상 시 CUA 로 회귀">
+<defs>
+<linearGradient id="apaStep" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0F2C59"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+<linearGradient id="apaCard" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fff"/><stop offset="100%" stop-color="#FAFAF9"/></linearGradient>
+<marker id="apaArr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0F2C59"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="220" fill="#FAFAF9"/>
+<text x="430" y="20" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" font-weight="700" fill="#0F2C59">이상 발견 시 ② 판단으로 회귀 (예외 우회 루프)</text>
+<path d="M 590 71 C 590 32, 270 32, 270 71" stroke="#0F2C59" stroke-width="1.6" stroke-dasharray="4 3" fill="none" marker-end="url(#apaArr)"/>
+<rect x="40" y="100" width="140" height="80" rx="8" fill="url(#apaCard)" stroke="#6B6B72" stroke-width="1.3"/>
+<circle cx="110" cy="85" r="14" fill="url(#apaStep)"/>
+<text x="110" y="90" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="900" font-size="13" fill="#fff">1</text>
+<text x="110" y="124" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="11" fill="#0F0F10">예외 감지</text>
+<text x="110" y="144" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">스크린샷으로</text>
+<text x="110" y="158" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">이상 상황 포착</text>
+<text x="110" y="200" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="800" font-size="8" fill="#6B6B72">[Agent]</text>
+<path d="M 180 140 L 200 140" stroke="#0F2C59" stroke-width="2" fill="none" marker-end="url(#apaArr)"/>
+<rect x="200" y="100" width="140" height="80" rx="8" fill="url(#apaCard)" stroke="#6B6B72" stroke-width="1.3"/>
+<circle cx="270" cy="85" r="14" fill="url(#apaStep)"/>
+<text x="270" y="90" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="900" font-size="13" fill="#fff">2</text>
+<text x="270" y="124" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="11" fill="#0F0F10">판단</text>
+<text x="270" y="144" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">우회 경로</text>
+<text x="270" y="158" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">추론</text>
+<text x="270" y="200" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="800" font-size="8" fill="#6B6B72">[CUA]</text>
+<path d="M 340 140 L 360 140" stroke="#0F2C59" stroke-width="2" fill="none" marker-end="url(#apaArr)"/>
+<rect x="360" y="100" width="140" height="80" rx="8" fill="url(#apaCard)" stroke="#6B6B72" stroke-width="1.3"/>
+<circle cx="430" cy="85" r="14" fill="url(#apaStep)"/>
+<text x="430" y="90" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="900" font-size="13" fill="#fff">3</text>
+<text x="430" y="124" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="11" fill="#0F0F10">실행</text>
+<text x="430" y="144" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">결정 경로를</text>
+<text x="430" y="158" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">100% 정확도로 재개</text>
+<text x="430" y="200" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="800" font-size="8" fill="#6B6B72">[RPA]</text>
+<path d="M 500 140 L 520 140" stroke="#0F2C59" stroke-width="2" fill="none" marker-end="url(#apaArr)"/>
+<rect x="520" y="100" width="140" height="80" rx="8" fill="url(#apaCard)" stroke="#6B6B72" stroke-width="1.3"/>
+<circle cx="590" cy="85" r="14" fill="url(#apaStep)"/>
+<text x="590" y="90" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="900" font-size="13" fill="#fff">4</text>
+<text x="590" y="124" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="11" fill="#0F0F10">ERP 반영</text>
+<text x="590" y="144" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">결과 기록 ·</text>
+<text x="590" y="158" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">이상 시 ②로 회귀</text>
+<text x="590" y="200" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="800" font-size="8" fill="#6B6B72">[ERP]</text>
+</svg>

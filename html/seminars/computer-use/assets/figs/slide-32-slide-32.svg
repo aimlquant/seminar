@@ -1,0 +1,40 @@
+<svg viewBox="0 0 720 195" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AI Agent 수요 폭발 4 KPI">
+<defs>
+<linearGradient id="kpiBar" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#0F2C59"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+</defs>
+<rect x="25" y="21" width="160" height="120" rx="6" fill="#fff" stroke="#0F2C59" stroke-width="1.2"/>
+<rect x="25" y="21" width="160" height="3" fill="url(#kpiBar)"/>
+<text x="35" y="43" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="9" fill="#6B6B72" letter-spacing="0.06em">AI AGENT 시장</text>
+<text x="105" y="81" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="900" font-size="22" fill="#0F2C59">$50.31B</text>
+<text x="105" y="97" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#6B6B72">2030 전망</text>
+<line x1="35" y1="107" x2="175" y2="107" stroke="#F4F4F5"/>
+<text x="105" y="121" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" fill="#0F0F10">2026 $10.91B → 4.6배</text>
+<text x="105" y="135" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#0F2C59" font-weight="700">CAGR 45.8%</text>
+<rect x="195" y="21" width="160" height="120" rx="6" fill="#fff" stroke="#0F2C59" stroke-width="1.2"/>
+<rect x="195" y="21" width="160" height="3" fill="url(#kpiBar)"/>
+<text x="205" y="43" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="9" fill="#6B6B72" letter-spacing="0.06em">ANTHROPIC SERIES G</text>
+<text x="275" y="81" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="900" font-size="22" fill="#0F2C59">$30B</text>
+<text x="275" y="97" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#6B6B72">2026 펀딩</text>
+<line x1="205" y1="107" x2="345" y2="107" stroke="#F4F4F5"/>
+<text x="275" y="121" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" fill="#0F0F10">@ $380B 밸류</text>
+<text x="275" y="135" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#0F2C59" font-weight="700">MS · Nvidia 주도</text>
+<rect x="365" y="21" width="160" height="120" rx="6" fill="#fff" stroke="#0F2C59" stroke-width="1.2"/>
+<rect x="365" y="21" width="160" height="3" fill="url(#kpiBar)"/>
+<text x="375" y="43" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="9" fill="#6B6B72" letter-spacing="0.06em">CLAUDE CODE ARR</text>
+<text x="445" y="81" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="900" font-size="22" fill="#0F2C59">$2.5B</text>
+<text x="445" y="97" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#6B6B72">2026-02 · 단독 제품</text>
+<line x1="375" y1="107" x2="515" y2="107" stroke="#F4F4F5"/>
+<text x="445" y="121" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" fill="#0F0F10">9개월에 $1B → $2.5B</text>
+<text x="445" y="135" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#0F2C59" font-weight="700">사상 최단 ARR 곡선</text>
+<rect x="535" y="21" width="160" height="120" rx="6" fill="#fff" stroke="#0F2C59" stroke-width="1.2"/>
+<rect x="535" y="21" width="160" height="3" fill="url(#kpiBar)"/>
+<text x="545" y="43" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="9" fill="#6B6B72" letter-spacing="0.06em">프로덕션 가동</text>
+<text x="615" y="81" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="900" font-size="22" fill="#0F2C59">51%</text>
+<text x="615" y="97" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#6B6B72">기업의 절반 이상</text>
+<line x1="545" y1="107" x2="685" y2="107" stroke="#F4F4F5"/>
+<text x="615" y="121" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" fill="#0F0F10">88% 임원 예산 확대</text>
+<text x="615" y="135" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#0F2C59" font-weight="700">시니어 의사결정</text>
+<rect x="25" y="155" width="670" height="22" rx="3" fill="rgba(15,44,89,0.06)"/>
+<rect x="25" y="155" width="3" height="22" fill="#0F2C59"/>
+<text x="36" y="170" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="9" fill="#091F40">▼ Managed Agents endurance 25분 → 45분 (3개월 2배) · 750+ 세션 베테랑 40% 가 full_auto_approve 채택</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg viewBox="0 0 720 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Resilient Restart 사이클과 트레이드오프">
+<defs>
+<linearGradient id="rrAgent" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0F2C59"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+<marker id="rrArrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0F2C59"/></marker>
+<marker id="rrArrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B6B72"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="240" fill="#FAFAF9"/>
+
+<text x="20" y="22" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="10" fill="#0F2C59">① 종료 → 자동복구 무한 루프</text>
+<rect x="20" y="46" width="100" height="44" rx="4" fill="#fff" stroke="#0F0F10" stroke-width="1.4"/>
+<text x="70" y="65" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#0F0F10">관리자</text>
+<text x="70" y="80" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="8.5" fill="#6B6B72">kill -9</text>
+<rect x="240" y="46" width="100" height="44" rx="4" fill="url(#rrAgent)"/>
+<text x="290" y="65" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#fff">에이전트</text>
+<text x="290" y="80" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="8.5" fill="rgba(255,255,255,0.92)">+ systemd</text>
+<path d="M 122 58 L 238 58" fill="none" stroke="#0F2C59" stroke-width="1.6" marker-end="url(#rrArrR)"/>
+<text x="180" y="52" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" font-weight="800" fill="#0F2C59">kill -9</text>
+<path d="M 238 78 L 122 78" fill="none" stroke="#6B6B72" stroke-width="1.4" marker-end="url(#rrArrG)" stroke-dasharray="3 2"/>
+<text x="180" y="104" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" font-weight="700" fill="#6B6B72">auto-restart (부활)</text>
+<text x="180" y="148" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="36" fill="#0F2C59" opacity="0.4">↻ ∞</text>
+<text x="180" y="166" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#091F40" font-style="italic">관리자 통제 불가능</text>
+<rect x="20" y="182" width="320" height="42" rx="4" fill="#FEF2F2" stroke="#0F2C59" stroke-width="1.5"/>
+<text x="180" y="200" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#0F2C59">결국 네트워크 케이블 물리 차단</text>
+<text x="180" y="214" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#091F40">— OpenClaw 창시자 실화</text>
+
+<line x1="370" y1="20" x2="370" y2="224" stroke="#f5f5f4" stroke-dasharray="3 2"/>
+<text x="386" y="22" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="10" fill="#0F2C59">② 회복성 ↔ 안전성 구조적 충돌</text>
+<rect x="386" y="46" width="146" height="68" rx="4" fill="#fff" stroke="#0F0F10"/>
+<text x="459" y="65" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#0F0F10">회복성</text>
+<text x="459" y="80" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">장애 복구 자동화</text>
+<text x="459" y="92" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6B6B72">— 운영 효율의 핵심</text>
+<text x="459" y="106" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" font-weight="800" fill="#059669">↑ 강하게 설계</text>
+<text x="552" y="80" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="14" fill="#0F2C59">⚔</text>
+<text x="552" y="96" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="7.5" fill="#0F2C59" font-style="italic">충돌</text>
+<rect x="572" y="46" width="132" height="68" rx="4" fill="#fff" stroke="#0F2C59"/>
+<text x="638" y="65" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#0F2C59">안전성</text>
+<text x="638" y="80" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#091F40">즉시 중단 가능</text>
+<text x="638" y="92" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#091F40">— 보안의 핵심</text>
+<text x="638" y="106" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="9" font-weight="800" fill="#0F2C59">↓ 회복성에 침식</text>
+<rect x="386" y="130" width="318" height="86" rx="4" fill="#F5F5F4" stroke="#0F2C59" stroke-dasharray="3 2"/>
+<text x="545" y="150" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#0F2C59">종료 명령 자체를 보장할 수 없음</text>
+<text x="545" y="172" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#091F40">⇒ 차선책 — 피해가 일정 범위에서 멈추도록</text>
+<text x="545" y="186" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" fill="#091F40">권한 경계를 미리 설계</text>
+<text x="545" y="208" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="10" font-weight="800" font-style="italic" fill="#0F2C59">→ Blast Radius (다음 슬라이드)</text>
+</svg>

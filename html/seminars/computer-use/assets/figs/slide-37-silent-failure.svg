@@ -1,0 +1,41 @@
+<svg viewBox="0 0 720 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Silent Failure 타이밍 비교">
+<defs>
+<linearGradient id="sfOk" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#059669"/><stop offset="100%" stop-color="#059669"/></linearGradient>
+<linearGradient id="sfFail" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0F2C59"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+<marker id="sfArr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B6B72"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="260" fill="#FAFAF9"/>
+<text x="16" y="30" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="10" fill="#059669">정상 경로 — 실행 → 알림 → 인간 인지</text>
+<line x1="16" y1="54" x2="704" y2="54" stroke="#6b6b72" stroke-width="1" marker-end="url(#sfArr)"/>
+<circle cx="80" cy="54" r="8" fill="url(#sfOk)"/>
+<text x="80" y="76" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#059669" font-weight="700">07:00 기동</text>
+<rect x="120" y="44" width="140" height="20" rx="3" fill="#D1FAE5" stroke="#059669"/>
+<text x="190" y="58" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#059669" font-weight="700">Gmail 스캔 · 분류</text>
+<rect x="270" y="44" width="140" height="20" rx="3" fill="#D1FAE5" stroke="#059669"/>
+<text x="340" y="58" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#059669" font-weight="700">초안 작성 · Slack 전송</text>
+<circle cx="440" cy="54" r="9" fill="url(#sfOk)"/>
+<text x="440" y="42" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#059669" font-weight="800">✓ 성공 이벤트</text>
+<text x="440" y="76" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#059669">Slack #triage 알림</text>
+<circle cx="580" cy="54" r="8" fill="#091F40"/>
+<text x="580" y="76" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#0F0F10" font-weight="700">09:00 인간 확인</text>
+<text x="580" y="88" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="7.5" fill="#6B6B72">요약을 실제로 읽음</text>
+<line x1="16" y1="126" x2="704" y2="126" stroke="#f5f5f4"/>
+<text x="16" y="150" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="10" fill="#0F2C59">조용한 실패 — 실행 실패 → 알림 없음 → 인지 지연</text>
+<line x1="16" y1="174" x2="704" y2="174" stroke="#6b6b72" stroke-width="1" marker-end="url(#sfArr)"/>
+<circle cx="80" cy="174" r="8" fill="url(#sfFail)"/>
+<text x="80" y="196" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#091F40" font-weight="700">07:00 기동</text>
+<rect x="120" y="164" width="140" height="20" rx="3" fill="#FEF2F2" stroke="#0F2C59"/>
+<text x="190" y="178" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#0F2C59" font-weight="700">Gmail API 타임아웃</text>
+<line x1="250" y1="186" x2="272" y2="200" stroke="#0F2C59" stroke-width="1.3"/>
+<text x="260" y="210" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="7.5" fill="#0F2C59" font-style="italic">실패</text>
+<rect x="270" y="164" width="140" height="20" rx="3" fill="#FFF7ED" stroke="#F5F5F4" stroke-dasharray="3 2"/>
+<text x="340" y="178" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8.5" fill="#6b6b72">(실행 중단 · 알림 없음)</text>
+<circle cx="440" cy="174" r="9" fill="#F3F4F6" stroke="#0F2C59" stroke-width="1.5" stroke-dasharray="2 2"/>
+<text x="440" y="162" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#0F2C59" font-weight="800">✗ 조용한 종료</text>
+<text x="440" y="196" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#0F2C59">Slack 에 아무 알림 없음</text>
+<circle cx="580" cy="174" r="8" fill="#6B6B72"/>
+<text x="580" y="196" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#0F0F10" font-weight="700">09:00 인간 오인</text>
+<text x="580" y="208" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="7.5" fill="#6B6B72">"한가한 날인가 보다"</text>
+<rect x="520" y="224" width="180" height="22" rx="3" fill="#FEF2F2" stroke="#0F2C59" stroke-dasharray="3 2"/>
+<text x="610" y="238" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" font-weight="700" fill="#0F2C59">최대 24h 인지 지연</text>
+</svg>

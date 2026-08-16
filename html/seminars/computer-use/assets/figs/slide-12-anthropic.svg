@@ -1,0 +1,54 @@
+<svg viewBox="0 0 720 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Anthropic 로컬 실행 아키텍처">
+<defs>
+<linearGradient id="aLocalRed" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0F2C59"/><stop offset="100%" stop-color="#091F40"/></linearGradient>
+<marker id="aArr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0F2C59"/></marker>
+<marker id="aArrBack" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B6B72"/></marker>
+</defs>
+<rect x="14" y="14" width="430" height="232" rx="10" fill="#FAFAF9" stroke="#0F2C59" stroke-width="1.3"/>
+<text x="28" y="38" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="12" fill="#0F2C59">사용자 PC (내 머신 · 로컬)</text>
+<text x="430" y="38" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="8.5" fill="#091F40" letter-spacing="0.1em">LOCAL HOST</text>
+<rect x="28" y="52" width="402" height="74" rx="6" fill="#fff" stroke="#0F2C59" stroke-dasharray="4 3"/>
+<text x="40" y="70" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#0F2C59">Docker / MicroVM 격리 샌드박스</text>
+<rect x="40" y="82" width="124" height="36" rx="4" fill="#F5F5F4" stroke="#0F2C59"/>
+<text x="102" y="97" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="9" fill="#0F0F10">Xvfb 1024×768</text>
+<text x="102" y="110" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">가상 디스플레이</text>
+<rect x="172" y="82" width="124" height="36" rx="4" fill="#F5F5F4" stroke="#0F2C59"/>
+<text x="234" y="97" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="9" fill="#0F0F10">Mutter WM</text>
+<text x="234" y="110" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">window manager</text>
+<rect x="304" y="82" width="114" height="36" rx="4" fill="#F5F5F4" stroke="#0F2C59"/>
+<text x="361" y="97" text-anchor="middle" font-family="JetBrains Mono,monospace" font-weight="700" font-size="9" fill="#0F0F10">xdotool</text>
+<text x="361" y="110" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72">PyAutoGUI · 실제 클릭</text>
+<rect x="28" y="138" width="402" height="94" rx="6" fill="#fff" stroke="#0F2C59"/>
+<text x="40" y="156" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#0F2C59">호스트 프로세스 (에이전틱 루프)</text>
+<rect x="40" y="168" width="124" height="54" rx="4" fill="url(#aLocalRed)"/>
+<text x="102" y="186" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="9.5" fill="#fff">OBSERVE</text>
+<text x="102" y="200" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="rgba(255,255,255,0.85)">스크린샷 캡처</text>
+<text x="102" y="212" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="8.5" fill="rgba(255,255,255,0.85)">base64 image</text>
+<rect x="172" y="168" width="124" height="54" rx="4" fill="url(#aLocalRed)"/>
+<text x="234" y="186" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="9.5" fill="#fff">THINK · 전송</text>
+<text x="234" y="200" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="rgba(255,255,255,0.85)">Anthropic API</text>
+<text x="234" y="212" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="8.5" fill="rgba(255,255,255,0.85)">Opus 4.7</text>
+<rect x="304" y="168" width="114" height="54" rx="4" fill="url(#aLocalRed)"/>
+<text x="361" y="186" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="9.5" fill="#fff">ACT</text>
+<text x="361" y="200" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="rgba(255,255,255,0.85)">tool_call dispatch</text>
+<text x="361" y="212" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="8.5" fill="rgba(255,255,255,0.85)">좌표 + 액션</text>
+<path d="M 102 138 L 102 120" stroke="#6B6B72" stroke-width="1.3" stroke-dasharray="3 2" fill="none" marker-end="url(#aArrBack)"/>
+<text x="122" y="134" text-anchor="start" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#6B6B72" font-style="italic">screenshot</text>
+<path d="M 361 138 L 361 120" stroke="#0F2C59" stroke-width="1.6" fill="none" marker-end="url(#aArr)"/>
+<text x="341" y="134" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="#0F2C59" font-style="italic">실제 클릭</text>
+<path d="M 164 195 L 170 195" stroke="#0F2C59" stroke-width="1.5" fill="none" marker-end="url(#aArr)"/>
+<path d="M 296 195 L 302 195" stroke="#0F2C59" stroke-width="1.5" fill="none" marker-end="url(#aArr)"/>
+<rect x="494" y="140" width="212" height="110" rx="10" fill="#091F40"/>
+<text x="510" y="162" font-family="Inter,Noto Sans KR,sans-serif" font-weight="900" font-size="12" fill="#fff">Anthropic Cloud</text>
+<text x="696" y="162" text-anchor="end" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="8.5" fill="rgba(255,255,255,0.72)" letter-spacing="0.1em">REMOTE</text>
+<rect x="510" y="176" width="180" height="26" rx="4" fill="rgba(255,255,255,0.14)"/>
+<text x="600" y="194" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="700" font-size="10" fill="#fff">Claude Opus 4.7 추론</text>
+<rect x="510" y="208" width="180" height="34" rx="4" fill="rgba(37,99,235,0.22)" stroke="#2563EB" stroke-dasharray="3 2"/>
+<text x="600" y="225" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-weight="800" font-size="10" fill="#fff">ZDR 옵션</text>
+<text x="600" y="236" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="8" fill="rgba(255,255,255,0.88)">프롬프트·스크린샷 미저장</text>
+<path d="M 444 189 L 490 189" stroke="#6B6B72" stroke-width="1.5" stroke-dasharray="3 2" fill="none" marker-end="url(#aArrBack)"/>
+<text x="467" y="184" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="8" fill="#6B6B72">image</text>
+<path d="M 494 218 L 446 218" stroke="#0F2C59" stroke-width="1.5" fill="none" marker-end="url(#aArr)"/>
+<text x="467" y="213" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="8" fill="#0F2C59">tool_call</text>
+<text x="360" y="270" text-anchor="middle" font-family="Inter,Noto Sans KR,sans-serif" font-size="9" font-weight="800" fill="#6B6B72" letter-spacing="0.08em">추론은 클라우드 · 실행은 로컬 · ZDR 시 스크린샷·프롬프트 미저장</text>
+</svg>
