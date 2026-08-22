@@ -233,9 +233,10 @@ def render_index(site: dict, seminars: list[dict]) -> str:
 {GENERATED_NOTE}
   <main class="shell">
     <div class="brand">
-      <a class="brand-name" href="{esc(site['landing_url'])}">AIML Quant</a>
+      <span class="brand-name">AIML Quant</span>
       <span class="brand-sub">SEMINAR</span>
     </div>
+    <a class="back" href="{esc(site['landing_url'])}">← AIML Quant 홈</a>
 
     <h1>세미나</h1>
     <p class="lead">{esc(site['tagline_ko'])}</p>

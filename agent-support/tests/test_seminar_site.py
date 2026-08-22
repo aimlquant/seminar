@@ -164,6 +164,17 @@ class GeneratedPageTest(unittest.TestCase):
             if folder.is_dir():
                 self.assertIn(marker, (folder / "index.html").read_text(encoding="utf-8"))
 
+    def test_index_links_back_to_the_landing_page(self) -> None:
+        """이 저장소는 조직 랜딩의 하위 공간이다. 세미나 목록에서 랜딩으로
+        돌아가는 링크가 눈에 보여야 방문자가 다른 공간을 찾을 수 있다."""
+        site = load(REPO_ROOT / "agent-support" / "site.toml")["site"]
+        text = (HTML / "index.html").read_text(encoding="utf-8")
+
+        self.assertIn(
+            f'<a class="back" href="{site["landing_url"]}">← AIML Quant 홈</a>',
+            text,
+        )
+
     def test_no_external_stylesheet_or_font(self) -> None:
         for path in HTML.rglob("*.html"):
             text = path.read_text(encoding="utf-8")

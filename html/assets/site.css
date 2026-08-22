@@ -65,6 +65,20 @@ h1, h2, h3, li, th, td, .button, .card-link, .series-count {
   color: var(--muted);
 }
 
+.back {
+  display: inline-block;
+  margin-top: 30px;
+  color: var(--primary);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.back:hover,
+.back:focus-visible {
+  text-decoration: underline;
+}
+
 h1 {
   margin: clamp(32px, 6vw, 56px) 0 0;
   font-size: clamp(2.2rem, 7vw, 3.6rem);
