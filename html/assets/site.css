@@ -77,16 +77,16 @@ h1, h2, h3, li, th, td, .button, .card-link, .series-count {
 }
 
 h1 {
-  margin: clamp(32px, 6vw, 56px) 0 0;
-  font-size: clamp(2.2rem, 7vw, 3.6rem);
-  line-height: 1.06;
-  letter-spacing: -0.04em;
+  margin: clamp(28px, 5vw, 48px) 0 0;
+  font-size: clamp(2.35rem, 7vw, 4.25rem);
+  line-height: 1.08;
+  letter-spacing: -0.045em;
 }
 
 .lead {
   margin: 18px 0 0;
-  max-width: 52ch;
-  font-size: clamp(1rem, 2.4vw, 1.1rem);
+  max-width: 54ch;
+  font-size: clamp(1rem, 2.4vw, 1.15rem);
   color: var(--muted);
 }
 
