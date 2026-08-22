@@ -65,18 +65,15 @@ h1, h2, h3, li, th, td, .button, .card-link, .series-count {
   color: var(--muted);
 }
 
+/* 네 공개 공간이 조직 랜딩으로 돌아가는 링크를 같은 자리에 같은 모습으로
+   보여준다. 운영 가이드(`/guides/`)가 기준이다 — 브랜드 표기 바로 아래. */
 .back {
   display: inline-block;
   margin-top: 30px;
   color: var(--primary);
   font-size: 0.9rem;
-  font-weight: 700;
+  font-weight: 750;
   text-decoration: none;
-}
-
-.back:hover,
-.back:focus-visible {
-  text-decoration: underline;
 }
 
 h1 {
