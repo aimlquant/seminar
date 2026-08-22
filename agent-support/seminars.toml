@@ -36,9 +36,10 @@ subtitle_ko = "수급·거래량에서 검증·실행·리스크 관리까지"
 scope_ko = "한국·미국 옵션시장 · 수급 · 거래량 · 0DTE · 자동매매 · 검증 · 리스크"
 summary_ko = "한국과 미국 옵션시장의 구조와 참가자 수급을 어떻게 읽을지, 거래량 기반 가설을 백테스트·포워드 테스트·실거래로 옮길 때 어떤 검증과 위험 통제가 필요한지 세미나 토론을 바탕으로 정리합니다."
 date = "2026-08-22"
-duration_minutes = 63
+duration_minutes = 58
 presenters = ["핀조이", "종훈"]
 status = "published"
+youtube_video_id = "kYQaDyaYP5w"
 artifacts = [
   { kind = "slides", label = "발표자료", url = "seminars/options-market-quant-automation/slides.html" },
   { kind = "report", label = "상세 리포트", url = "seminars/options-market-quant-automation/report.html" },
