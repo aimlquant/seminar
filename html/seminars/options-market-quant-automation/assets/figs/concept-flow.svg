@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 180" role="img" aria-labelledby="title desc">
+  <title id="title">계약에서 전략 피처까지의 정규화 경로</title>
+  <desc id="desc">계약 명세, 시장 데이터, 정규화된 관측, 전략 피처가 왼쪽에서 오른쪽으로 이어진다.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#6B6B72"/>
+    </marker>
+    <style>
+      .text{font-family:'Noto Sans CJK KR','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',NanumGothic,Inter,system-ui,sans-serif}
+      .box{fill:#fff;stroke:#0F2C59;stroke-width:2}
+      .line{fill:none;stroke:#6B6B72;stroke-width:2.5;marker-end:url(#arrow)}
+      .label{font-size:17px;font-weight:800;text-anchor:middle}
+      .meta{font-size:12px;fill:#6B6B72;text-anchor:middle}
+    </style>
+  </defs>
+  <rect width="720" height="180" rx="12" fill="#FAFAF9"/>
+  <path class="line" d="M165 90H205"/>
+  <path class="line" d="M335 90H375"/>
+  <path class="line" d="M505 90H545"/>
+  <g class="text">
+    <rect class="box" x="35" y="54" width="130" height="72" rx="8"/>
+    <rect class="box" x="205" y="54" width="130" height="72" rx="8"/>
+    <rect class="box" x="375" y="54" width="130" height="72" rx="8"/>
+    <rect x="545" y="54" width="140" height="72" rx="8" fill="#0F2C59"/>
+    <text class="label" x="100" y="86">계약 명세</text><text class="meta" x="100" y="108">승수 · 만기 · 세션</text>
+    <text class="label" x="270" y="86">시장 데이터</text><text class="meta" x="270" y="108">호가 · 체결 · 수급</text>
+    <text class="label" x="440" y="86">정규화</text><text class="meta" x="440" y="108">시점 · 단위 · 결측</text>
+    <text class="label" x="615" y="86" fill="#fff">전략 피처</text><text class="meta" x="615" y="108" fill="#D9E2EF">재현 가능한 관측</text>
+  </g>
+</svg>

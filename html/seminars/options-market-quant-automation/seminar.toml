@@ -1,0 +1,11 @@
+seminar_id = "options-market-quant-automation"
+slug = "options-market-quant-automation"
+title = "옵션시장 구조와 퀀트 자동매매 설계"
+date = "2026-08-22"
+presenters = ["핀조이", "종훈"]
+sections = ["옵션시장 구조", "수급과 거래량", "자동매매 파이프라인", "검증과 실행", "리스크 관리"]
+template = "seminar-deck-v1"
+report_template = "seminar-report-v1"
+workflow = "source-report-deck-v1"
+report_source = "report.html"
+artifacts = ["report", "slides"]
